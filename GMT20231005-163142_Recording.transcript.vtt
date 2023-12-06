@@ -1,0 +1,2738 @@
+WEBVTT
+
+1
+00:01:35.950 --> 00:01:42.690
+Umesh Vaidya: Okay? So in in the last lecture, we are talking about improper stability.
+
+2
+00:01:43.830 --> 00:01:53.080
+Umesh Vaidya: So let's continue with the definition. So to talk about improvisability. It has to seem purposely has to do with the inputs and outputs. That means
+
+3
+00:01:53.110 --> 00:01:57.879
+Umesh Vaidya: if you make a small change, the input it should reflect with a small change in the output.
+
+4
+00:01:58.160 --> 00:02:10.670
+Umesh Vaidya: And to sort of quantify this, what do you mean by small? And what do you mean by big? We need to. Put the norms on the input and output spaces. Now, the input and output are actually functions. Now, they are no longer a vectors. So they are
+
+5
+00:02:10.759 --> 00:02:14.560
+Umesh Vaidya: functions which is basically infinite. Dimensional vectors
+
+6
+00:02:14.790 --> 00:02:22.530
+Umesh Vaidya: functions are in 5 dimensional vectors. Okay. so how do you actually assign design? I mean, how do you actually define norms on the zoom part of space?
+
+7
+00:02:23.710 --> 00:02:25.679
+Which are in 5 dimensional spaces?
+
+8
+00:02:25.690 --> 00:02:37.550
+Umesh Vaidya: We then talked about this Lp spaces, which is the way, which is basically the space of all signals which have this finite. When the integral of the signal is finite.
+
+9
+00:02:37.890 --> 00:02:42.919
+Umesh Vaidya: then you say that that signal belongs to Lp space. Okay, so that's the only definition of the Lp space
+
+10
+00:02:43.550 --> 00:02:50.000
+Umesh Vaidya: so now, this is the Lpa is like a norm on this, on the in 5 dimensional space. Okay, it's called P, norm
+
+11
+00:02:51.220 --> 00:03:05.730
+Umesh Vaidya: and and you can take P to be any integer between one and infinity, open infinity. And for P equal to 2. Then it's basically like your familiar energy of the signal. So energy is is a norm of the signal
+
+12
+00:03:07.110 --> 00:03:13.530
+Umesh Vaidya:  and then the Elling street, and Norm is defined in terms of the supremum value of the signal
+
+13
+00:03:13.610 --> 00:03:17.840
+Umesh Vaidya: or the the time horizon. T, okay, where supremum is taking over time.
+
+14
+00:03:18.490 --> 00:03:23.549
+Umesh Vaidya: So that was how we defined the Lp space. So these are actually called functional spaces.
+
+15
+00:03:24.030 --> 00:03:34.830
+Umesh Vaidya:  and and this function spaces consist of functions which are infinite dimensional vectors. And hence these are actually in 5 dimensional vector, space, Lp spaces in 5 dimensional
+
+16
+00:03:34.900 --> 00:03:40.590
+Umesh Vaidya: vector space. And then you have norm on this space. So it becomes in 5 dimensional norm vector, space. Okay.
+
+17
+00:03:41.790 --> 00:03:57.779
+Umesh Vaidya:  so that's that's like a rough, quick introduction to what is this? In 5 dimensional spaces? and then we say that when we're dealing with input output systems, we may be dealing with systems which are not necessarily stable.
+
+18
+00:03:57.960 --> 00:04:06.370
+Umesh Vaidya: Okay? So then how do you actually, use this underlying lp spaces to deal with systems which are not necessarily stable?
+
+19
+00:04:06.700 --> 00:04:08.299
+Umesh Vaidya: So what if? Because this
+
+20
+00:04:08.510 --> 00:04:23.390
+Umesh Vaidya: to to define element on the space. We are defining element on the space such that this country is finite. So if you have a system which is unstable, then the output may not be belong to the Lp spaces, because this country may not be finite, the output may be growing to infinity.
+
+21
+00:04:23.430 --> 00:04:34.099
+Umesh Vaidya: So then how do you actually, make modifications make change to the spaces so that you can actually use this for the input output analysis of a system. Right?
+
+22
+00:04:34.240 --> 00:04:40.760
+Umesh Vaidya: So then, we came up with this notion of so-called external lp spaces. External lp spaces are defined as spaces
+
+23
+00:04:41.010 --> 00:04:49.179
+Umesh Vaidya: where the signal not not necessarily belong to the space, but any truncation of the signal can belong to the space, so you can truncate the signal.
+
+24
+00:04:49.260 --> 00:04:54.640
+Umesh Vaidya: And now, that signal will belong to that lp, space
+
+25
+00:04:54.740 --> 00:04:59.169
+Umesh Vaidya: where the original signal may not. Okay, so this is how you define the extent. Lp, space.
+
+26
+00:04:59.240 --> 00:05:07.320
+Umesh Vaidya: And now this external spaces can now be used to talk about improbability of the system.
+
+27
+00:05:09.540 --> 00:05:15.970
+Umesh Vaidya: So now we can give the definition of the improper stability of a system using this external lp space.
+
+28
+00:05:20.160 --> 00:05:35.329
+Umesh Vaidya: And this definition is fairly, very general. It is not defined for linear system or nonlinear system. It is just defined for a general mapping edge. So what is this? H is. So as we saw last time, edge is a system mapping, it takes the input U and uses output y.
+
+29
+00:05:35.360 --> 00:05:38.780
+Umesh Vaidya: it takes any time signal and gives it out to y.
+
+30
+00:05:39.080 --> 00:05:42.130
+Umesh Vaidya: Now, this is
+
+31
+00:05:50.290 --> 00:05:51.110
+Umesh Vaidya: so.
+
+32
+00:05:51.220 --> 00:06:02.070
+Umesh Vaidya: So what is M here, M is the size of the input. P is the underlying norm which you're using is for extended. Now the output space is output. RQ.
+
+33
+00:06:02.140 --> 00:06:12.549
+Umesh Vaidya: There are queue outputs. M Inputs again, is a external lp, LE for the external np, so note that the same norm are used in both the input and output space. Right
+
+34
+00:06:12.920 --> 00:06:15.900
+Umesh Vaidya: it. The same norms are used in the in for output space.
+
+35
+00:06:18.610 --> 00:06:21.410
+Umesh Vaidya: So you're measuring both the input. And output is the same. P
+
+36
+00:06:22.950 --> 00:06:24.790
+Umesh Vaidya: is, sec
+
+37
+00:06:25.390 --> 00:06:28.250
+Umesh Vaidya: ubi else table.
+
+38
+00:06:30.020 --> 00:06:38.470
+Umesh Vaidya: If there exist a class K function, I'll tell you what a class K function is.
+
+39
+00:06:40.840 --> 00:06:41.860
+Umesh Vaidya: Alpha
+
+40
+00:06:47.430 --> 00:06:49.999
+Umesh Vaidya: define on 0 infinity
+
+41
+00:06:51.710 --> 00:06:53.609
+Umesh Vaidya: and a non-negative
+
+42
+00:07:02.420 --> 00:07:03.750
+Umesh Vaidya: constant beta
+
+43
+00:07:06.270 --> 00:07:07.400
+Umesh Vaidya: such that
+
+44
+00:07:23.840 --> 00:07:27.599
+Umesh Vaidya: okay, so this year to understand, in the in the sense of a function.
+
+45
+00:07:30.890 --> 00:07:32.510
+Umesh Vaidya: This is the argument of the function.
+
+46
+00:07:39.780 --> 00:07:43.150
+Umesh Vaidya: or all you belongs to LPEM.
+
+47
+00:07:44.970 --> 00:07:47.400
+Umesh Vaidya: And thought 0 to infinity.
+
+48
+00:08:01.240 --> 00:08:06.330
+Umesh Vaidya: So basically, what this doing is so this I talked about what is class K functions are.
+
+49
+00:08:07.390 --> 00:08:08.530
+Umesh Vaidya: And
+
+50
+00:08:19.820 --> 00:08:29.840
+Umesh Vaidya: so what it is doing is basically it is so. What is the HU of Taw, HU of Tau is basically is, whenever you see a subscript Tau, it means that you're truncating the signal
+
+51
+00:08:29.910 --> 00:08:31.020
+Umesh Vaidya: daytime talk.
+
+52
+00:08:31.160 --> 00:08:37.829
+Umesh Vaidya: Okay? So hue is the output. You're truncating the output till time, Tom, and then computing the P. Now, Lpnum.
+
+53
+00:08:38.360 --> 00:08:40.059
+Umesh Vaidya: because now it's a truncated signal.
+
+54
+00:08:41.010 --> 00:08:49.700
+Umesh Vaidya: So the the the the Lp norm, or the truncated output is less than equal to some alpha where alpha is some class K function
+
+55
+00:08:49.930 --> 00:08:59.029
+Umesh Vaidya:  of the the so here the this, the the Utah Lp is the inner argument of the alpha.
+
+56
+00:08:59.370 --> 00:09:01.580
+Umesh Vaidya: because alpha is a nonlinear function
+
+57
+00:09:01.770 --> 00:09:16.270
+Umesh Vaidya: is a class K function. So what it is essentially trying to capture the fact that then the the pnorm of the output is bounded by some class K function of the P. Norm of the input plus some constant beta. So this beta is just some constant.
+
+58
+00:09:16.320 --> 00:09:25.489
+Umesh Vaidya: Now, what is this class K function? Okay? So I think without the class K function definition, this is not become clear. So what are the class? K functions are
+
+59
+00:09:25.500 --> 00:09:27.459
+Umesh Vaidya: so, as I told you last time.
+
+60
+00:09:27.960 --> 00:09:31.710
+Umesh Vaidya: that there's when we do this v dot less than 0.
+
+61
+00:09:32.370 --> 00:09:43.050
+Umesh Vaidya: Instead of making less than 0, we can actually bound that with any class K function. So, depending upon the the, the, the the class of function that you're bounding it. You get different convergence rate and same is here as well.
+
+62
+00:09:43.270 --> 00:09:45.050
+Umesh Vaidya: So
+
+63
+00:09:45.380 --> 00:09:55.350
+Umesh Vaidya: so the class K function provides some bound on this, on the output output is bounded with some as a class K function of input
+
+64
+00:09:55.580 --> 00:09:57.850
+Umesh Vaidya: a continuous function. So what is a classic function?
+
+65
+00:09:59.160 --> 00:10:02.259
+Umesh Vaidya: So first of all, class K functions. The continuous function.
+
+66
+00:10:02.300 --> 00:10:03.350
+Umesh Vaidya: Alpha.
+
+67
+00:10:03.370 --> 00:10:07.319
+Umesh Vaidya: from some interval 0 to A to 0 to infinity.
+
+68
+00:10:10.510 --> 00:10:11.570
+Umesh Vaidya: is
+
+69
+00:10:14.390 --> 00:10:15.619
+Umesh Vaidya: said to be
+
+70
+00:10:21.690 --> 00:10:24.559
+Umesh Vaidya: Class K. If it is
+
+71
+00:10:26.160 --> 00:10:28.440
+Umesh Vaidya: strictly increasing.
+
+72
+00:10:32.170 --> 00:10:34.010
+Umesh Vaidya: Alpha of 0 is 0,
+
+73
+00:10:35.300 --> 00:10:36.500
+Umesh Vaidya: it is
+
+74
+00:10:37.530 --> 00:10:38.930
+Umesh Vaidya: set to be
+
+75
+00:10:40.640 --> 00:10:45.069
+Umesh Vaidya: plus k infinity. If a equals infinity.
+
+76
+00:10:46.110 --> 00:10:53.170
+Umesh Vaidya: and alpha R equals go to infinity as R goes to infinity.
+
+77
+00:10:57.300 --> 00:11:13.409
+Umesh Vaidya: So so the nature of this function is the following, so it says, a class K function, if it is mapping from some interval 0. A to 0. Infinity is set to be class K, if it is strictly increasing that it has to be strictly increasing function, it's a strictly increasing function. And alpha 0 is 0.
+
+78
+00:11:13.820 --> 00:11:19.339
+Umesh Vaidya: Okay, it says to be class K, infinity. If a equals to infinity, that means it's extend from
+
+79
+00:11:19.600 --> 00:11:21.779
+Umesh Vaidya: 0 to infinity.
+
+80
+00:11:22.800 --> 00:11:30.409
+Umesh Vaidya: And then it goes to infinity as the R goes to. It's the argument goes to infinity. For an example.
+
+81
+00:11:31.840 --> 00:11:38.370
+Umesh Vaidya: if F of R equals one E to the R, then it's a class K function.
+
+82
+00:11:42.530 --> 00:11:43.230
+Umesh Vaidya: Okay?
+
+83
+00:11:43.360 --> 00:11:45.559
+Umesh Vaidya: Because it looks like this.
+
+84
+00:11:51.800 --> 00:11:53.030
+Umesh Vaidya: On the other hand.
+
+85
+00:11:53.190 --> 00:11:55.310
+Umesh Vaidya: if it's of the form
+
+86
+00:11:56.370 --> 00:11:58.399
+Umesh Vaidya: F of R equals.
+
+87
+00:12:06.650 --> 00:12:09.099
+Umesh Vaidya: it is to R minus one.
+
+88
+00:12:17.930 --> 00:12:19.129
+Umesh Vaidya: It's called class
+
+89
+00:12:20.370 --> 00:12:21.430
+Umesh Vaidya: game feeding.
+
+90
+00:12:29.890 --> 00:12:35.490
+Umesh Vaidya: Okay? Because as R goes to infinity, this is going to infinity, whereas here, as R goes to infinity
+
+91
+00:12:36.140 --> 00:12:41.170
+Umesh Vaidya: this function actually goes to approaches one. Okay, but it's strictly increasing still.
+
+92
+00:12:41.200 --> 00:12:43.410
+Umesh Vaidya: so F of R one E to the minus
+
+93
+00:12:43.440 --> 00:12:53.449
+Umesh Vaidya: r is strictly increasing. But as R goes to infinity is approaching one. So it's a class K function, whereas F of RE to the R minus one, as R goes to infinity is going to infinity.
+
+94
+00:12:53.580 --> 00:12:57.309
+Umesh Vaidya: And it is again strictly inclusion. So it is a class K function.
+
+95
+00:13:01.850 --> 00:13:06.990
+Umesh Vaidya: So basically, your definition of improper stability is given in terms of this function which tells you that
+
+96
+00:13:07.020 --> 00:13:13.140
+Umesh Vaidya: it basically provides a way to actually quantify all the bound output as a function of the input
+
+97
+00:13:13.370 --> 00:13:17.820
+Umesh Vaidya: and what functional input. It depends upon what class K function you're choosing.
+
+98
+00:13:19.140 --> 00:13:23.710
+Umesh Vaidya: So it provides you a way to yeah.
+
+99
+00:13:24.230 --> 00:13:25.370
+Umesh Vaidya: quantify
+
+100
+00:13:25.940 --> 00:13:31.189
+Umesh Vaidya: change in input how it impacts the change in output, and Beta is some constant of fine-tar.
+
+101
+00:13:32.950 --> 00:13:40.230
+Umesh Vaidya: Now it is said to be so. This is this is a definition of class K function.
+
+102
+00:13:41.130 --> 00:13:46.190
+Umesh Vaidya: yeah. it says to be L stable. Right? So now. if this
+
+103
+00:13:48.260 --> 00:13:52.840
+Umesh Vaidya: so there is a special case of this. it's called as a finite gain, else table.
+
+104
+00:13:56.740 --> 00:13:59.379
+Umesh Vaidya: So find it again. L. Stable. If there exist
+
+105
+00:14:02.560 --> 00:14:05.100
+Umesh Vaidya: a non-negative, constant
+
+106
+00:14:11.060 --> 00:14:13.739
+Umesh Vaidya: gamma and beta
+
+107
+00:14:14.080 --> 00:14:15.240
+Umesh Vaidya: such that
+
+108
+00:14:39.360 --> 00:14:40.450
+Umesh Vaidya: so here
+
+109
+00:14:40.550 --> 00:14:46.439
+Umesh Vaidya: this gamma is just a constant, so constant times, the input right? As opposed to
+
+110
+00:14:46.510 --> 00:14:47.990
+Umesh Vaidya: Dabba, where the
+
+111
+00:14:48.040 --> 00:14:56.869
+Umesh Vaidya: the right hand side was a nonlinear function of the U. Now, it's basically the class case. It's a linear function, because it's just a constant. This is just a constant
+
+112
+00:14:56.920 --> 00:15:00.140
+Umesh Vaidya: is multiplying the the norm of the
+
+113
+00:15:00.160 --> 00:15:08.359
+Umesh Vaidya: the phenome of the U. So then it's called as a finite gain, as stable. It's called finite gain health statement.
+
+114
+00:15:13.680 --> 00:15:15.370
+Umesh Vaidya: So there! There's
+
+115
+00:15:34.630 --> 00:15:37.510
+Umesh Vaidya: Maybe I should do that. I mean, I don't know.
+
+116
+00:15:38.210 --> 00:15:43.719
+Umesh Vaidya: I haven't done that in the past, but maybe I could. I could actually
+
+117
+00:15:46.020 --> 00:15:49.530
+Umesh Vaidya: is maybe little little advance, but it kind of
+
+118
+00:15:50.060 --> 00:15:51.320
+Umesh Vaidya: connects everything
+
+119
+00:16:12.190 --> 00:16:13.370
+Umesh Vaidya: questions on this
+
+120
+00:16:16.900 --> 00:16:17.590
+Umesh Vaidya: good.
+
+121
+00:16:30.840 --> 00:16:32.759
+Umesh Vaidya: So I think that the the
+
+122
+00:16:32.800 --> 00:16:54.449
+Umesh Vaidya:  sorry come again. Why don't we just try to be
+
+123
+00:16:56.540 --> 00:17:01.690
+Umesh Vaidya: HU. As YI mean you can. You can write the Hq as y, yeah, you can write h as y.
+
+124
+00:17:06.150 --> 00:17:07.960
+Umesh Vaidya: you can write HUSY.
+
+125
+00:17:55.270 --> 00:17:56.830
+Umesh Vaidya: So
+
+126
+00:17:57.950 --> 00:18:01.369
+Umesh Vaidya: I think the most common definition, or most use.
+
+127
+00:18:02.020 --> 00:18:23.900
+Umesh Vaidya:  most use definition of in purpose. Stability has is the L 2 gain stability. Okay, so which is basically saying that finite gain l. 2 stable. So if if I had to write it down I mean, it's basically same. But let's say, if I want to sort of make it more less abstract.
+
+128
+00:18:23.940 --> 00:18:31.290
+Umesh Vaidya: then you can write it as follows, so let's say, if you have a system  I'll do the
+
+129
+00:18:31.520 --> 00:18:33.700
+Umesh Vaidya: and the wider, and so slides down.
+
+130
+00:18:39.320 --> 00:18:45.539
+Umesh Vaidya: So let's say, if I have to. I'll tell you why this is I mean, there's there's a lot more here, but
+
+131
+00:18:45.560 --> 00:18:46.800
+Umesh Vaidya: I will try to sort of
+
+132
+00:18:47.450 --> 00:18:50.639
+Umesh Vaidya: give you some motivation for why we're doing this
+
+133
+00:18:50.700 --> 00:19:00.609
+Umesh Vaidya: finite gain. L, 2 state. Okay? So let's say, you have a system. Xort equals input output system xort, equal F of x plus g of XU,
+
+134
+00:19:00.630 --> 00:19:03.090
+Umesh Vaidya: and y, good h of X. Okay.
+
+135
+00:19:04.500 --> 00:19:12.149
+Umesh Vaidya: Now, this system is set to be finite, gain L to stable. And let's assume that the initial condition is 0.
+
+136
+00:19:14.890 --> 00:19:26.640
+Umesh Vaidya: Okay, if it is not easy. If the initial is not 0, then there's some constant term you get. So what are the final gain? L. 2. Stable means that it means the following, if you look at this quantity, 0 to P.
+
+137
+00:19:28.470 --> 00:19:29.420
+Umesh Vaidya: Square.
+
+138
+00:19:29.550 --> 00:19:31.719
+Umesh Vaidya: less than equal to some gamma squared
+
+139
+00:19:32.360 --> 00:19:36.750
+Umesh Vaidya: 0 to t you of teeth.
+
+140
+00:19:37.690 --> 00:19:38.360
+Dt.
+
+141
+00:19:42.620 --> 00:19:45.850
+Umesh Vaidya: so this will be the finite gain. L. 2. Stable.
+
+142
+00:19:47.070 --> 00:19:48.920
+Umesh Vaidya: where the gain? What is the gain now
+
+143
+00:19:50.340 --> 00:19:52.219
+Umesh Vaidya: of this of the system?
+
+144
+00:19:53.220 --> 00:19:54.150
+Umesh Vaidya: The Gamma
+
+145
+00:19:54.600 --> 00:19:56.330
+Umesh Vaidya: gamma is the game. Okay.
+
+146
+00:19:59.480 --> 00:20:01.279
+Umesh Vaidya: gamma is the gain of the system.
+
+147
+00:20:02.970 --> 00:20:04.580
+Umesh Vaidya: So it's basically
+
+148
+00:20:05.310 --> 00:20:23.150
+Umesh Vaidya: the above definition. I just sort of wrote it now without talking about all this Lp spaces and so on. So this is, I can just write it without telling you what I'll be spaces, and so on. So right, so above definition, I gave us more general. But this is what sort of is most popular or most
+
+149
+00:20:23.340 --> 00:20:27.540
+Umesh Vaidya: prevalent. You use for all t
+
+150
+00:20:27.720 --> 00:20:33.160
+Umesh Vaidya: get an equal disease. all T has to. So it has to be true for all. T, okay.
+
+151
+00:20:38.780 --> 00:20:43.339
+Umesh Vaidya: where you is now belongs to the external lp space
+
+152
+00:20:44.060 --> 00:20:49.069
+Umesh Vaidya: use also bounded in the X and Lp space. The sense of it.
+
+153
+00:20:49.310 --> 00:20:50.990
+Umesh Vaidya: U belongs to l. 2,
+
+154
+00:20:51.040 --> 00:20:54.190
+Umesh Vaidya: where you belongs to and to
+
+155
+00:20:56.130 --> 00:20:56.810
+Umesh Vaidya: E,
+
+156
+00:20:57.240 --> 00:21:00.960
+Umesh Vaidya: okay, with appropriate dimensions. Whatever the dimension input is.
+
+157
+00:21:02.480 --> 00:21:06.399
+Umesh Vaidya: No. What is why? I mean, question is, okay, how do you check this?
+
+158
+00:21:06.630 --> 00:21:12.600
+Umesh Vaidya: And why? What is the need of this right? Why do you need to check in broad stability?
+
+159
+00:21:12.710 --> 00:21:16.680
+Umesh Vaidya: And how do you check this committee. Why do you need in Brooklyn?
+
+160
+00:21:17.960 --> 00:21:22.100
+Umesh Vaidya: How do you check this? I think the checking thing
+
+161
+00:21:22.160 --> 00:21:23.639
+Umesh Vaidya: may need more time.
+
+162
+00:21:24.060 --> 00:21:37.499
+Umesh Vaidya: but I could just tell you without actually getting into detail. How do you go about checking this debit? It again actually connects to the Liabna function. But it's slightly, slightly more involved than Liabna function. Okay?
+
+163
+00:21:38.050 --> 00:21:51.039
+Umesh Vaidya:  So so if you, if you are given a system, the question you can ask is, okay. What is the gain? What is L 2. Gain of the system is that means.
+
+164
+00:21:51.140 --> 00:22:04.119
+Umesh Vaidya: what is the gamma, or what is the smallest gamma? So the goal is to the smallest goal is to find the smallest gamma for which this is true. Okay, because if it is true for small, let's say, gamma, there is always true for
+
+165
+00:22:04.380 --> 00:22:09.569
+Umesh Vaidya: Gamma bar, which is bigger than gamma. Alright. So the goal is to find its smallest gamma.
+
+166
+00:22:09.830 --> 00:22:21.280
+Umesh Vaidya: where the smallest gamma is basically the the gain of the system. Okay, so there are 2 things. One is. how do you find the smallest gamma? And then how do you check? Like.
+
+167
+00:22:22.970 --> 00:22:26.350
+Umesh Vaidya: yeah. How do you check in the system is lug against table, right?
+
+168
+00:22:26.580 --> 00:22:29.509
+Umesh Vaidya: And if it's similar to being stable, can you find the
+
+169
+00:22:29.610 --> 00:22:34.179
+Umesh Vaidya: the smallest gamma? So you can start with saying that. Oh, I take Gamma to be 1 million.
+
+170
+00:22:34.750 --> 00:22:39.070
+Umesh Vaidya: and is it L to get stable? So
+
+171
+00:22:39.720 --> 00:22:46.490
+Umesh Vaidya: so there's the the. So there are 2 questions we're asking one is, is the system. L, 2. Gains table.
+
+172
+00:22:46.770 --> 00:22:51.709
+Umesh Vaidya: If S. What is the gain of the system? Right? So these are 2 separate questions. Right?
+
+173
+00:22:52.590 --> 00:22:54.840
+Umesh Vaidya: Ideally, I would like to find the
+
+174
+00:22:54.970 --> 00:22:59.469
+Umesh Vaidya: the smallest gamma for that. I need to know, first, that the system is held to be in state.
+
+175
+00:22:59.520 --> 00:23:04.079
+Umesh Vaidya: You see what I'm saying. If the system is not able to get stable, then you cannot really go about finding the gap.
+
+176
+00:23:04.140 --> 00:23:11.600
+Umesh Vaidya: But if you know system is already unstable. Then you can start find trying to find the dump right? So now, how do you actually find this thing?
+
+177
+00:23:12.050 --> 00:23:22.809
+Umesh Vaidya:  sort of a simultaneously, if you, if you want to say that right?  So now, if the system is linear.
+
+178
+00:23:23.010 --> 00:23:33.599
+Umesh Vaidya: let's say, if F is linear, G is linear or is extortical. F of x, with G of x used x plus BU, and y equal to CX. Then you can write it as A,
+
+179
+00:23:34.320 --> 00:23:36.180
+Umesh Vaidya: then you can write this as an Lmi.
+
+180
+00:23:37.720 --> 00:23:39.459
+Umesh Vaidya: Then you can write this as an Lmi.
+
+181
+00:23:40.710 --> 00:23:48.150
+Umesh Vaidya: and and maybe you'll see that in the in the the Lmi course. But I can. I can just tell you how the Lmi looks like.
+
+182
+00:23:48.630 --> 00:23:49.300
+Okay.
+
+183
+00:23:50.740 --> 00:24:03.459
+Umesh Vaidya: But if you have a nonlinear system like this, how do you check that? So do check. If the system is L to get stable, and for what Gamma is actually then boils down to solving, so called as the Hamilton Jacobi equations.
+
+184
+00:24:03.710 --> 00:24:12.830
+Umesh Vaidya: and the Hamilton Jacobi equation have are in in them. Build like a layout. Equations are actually in build in the Hamilton Jacobi equation.
+
+185
+00:24:13.270 --> 00:24:13.980
+Umesh Vaidya: Okay.
+
+186
+00:24:14.220 --> 00:24:25.959
+Umesh Vaidya:  So let me just without kind of getting into the details of this. I'll just write down this Hamilton Jacobi equation because the Hamilton Jacobi equations
+
+187
+00:24:26.250 --> 00:24:28.710
+Umesh Vaidya: comes everywhere. These are kind of
+
+188
+00:24:29.260 --> 00:24:32.529
+Umesh Vaidya: like, you think about any problem in system theory.
+
+189
+00:24:32.780 --> 00:24:34.390
+Umesh Vaidya: Hamilton, Jacobi equations are there?
+
+190
+00:24:35.540 --> 00:24:40.310
+Umesh Vaidya: Okay? So if you think about any problem in, leave your system theory.
+
+191
+00:24:43.420 --> 00:24:48.180
+Umesh Vaidya: all the problems in linear system theory. You can reduce it to a sort of an Lmi problem. Okay?
+
+192
+00:24:48.290 --> 00:24:51.859
+Umesh Vaidya: But more importantly, even before riding, I lay my problem.
+
+193
+00:24:52.130 --> 00:24:56.879
+Umesh Vaidya: You can write them. All the problems in the linear system theory can be written as a
+
+194
+00:24:57.120 --> 00:25:01.060
+Umesh Vaidya: you know, you can write them as a Ricardi equation. So Ricardi is like a
+
+195
+00:25:01.250 --> 00:25:11.629
+Umesh Vaidya: everything to go to when you do the union systems. For example, if you're looking at stability optimal control, Lqr control, you know you can write a record equation. Do you know what a Ricardi equation is?
+
+196
+00:25:14.270 --> 00:25:16.249
+Umesh Vaidya: You heard of that? Right?
+
+197
+00:25:17.210 --> 00:25:19.340
+Umesh Vaidya: I can write it down.
+
+198
+00:25:20.900 --> 00:25:36.260
+Umesh Vaidya: so so you do optimal control, which is the in linear system. We do. Lqr control. It's a Ricardi equation. You do controllability. It's a Ricardi equation. You do stability. It's a Ricardi equation. You do. Observability is the Ricardi equation. You do carbon filter is the Ricard equation. Everything is Ricardi equation.
+
+199
+00:25:36.410 --> 00:25:41.719
+Umesh Vaidya: And then the Ricardi equation you need to way to solve the Ricardi equation is you can solve it using an Lmi.
+
+200
+00:25:42.520 --> 00:25:44.700
+Umesh Vaidya: which is what?
+
+201
+00:25:44.800 --> 00:25:56.250
+Umesh Vaidya: because the regarding equation has some linear structure. Now, what is the generalization of the Ricardi equation for nonlinear system? Because everything based for leanness system basically boils down to recording. Okay.
+
+202
+00:25:56.390 --> 00:26:02.329
+Umesh Vaidya: now for non-linear system. The generalization of Ricardi equation is the is the Hamilton Jacobi equation.
+
+203
+00:26:03.530 --> 00:26:08.130
+Umesh Vaidya: So Hamilton Jacobi equation is the Ricardi so-called Ricardi
+
+204
+00:26:08.340 --> 00:26:09.890
+Umesh Vaidya: of the non-linear system.
+
+205
+00:26:09.990 --> 00:26:16.090
+Umesh Vaidya: Another way to say that is actually, if you, the Ricardi equation is a linearization of the Hamiltonian.
+
+206
+00:26:17.110 --> 00:26:20.350
+Umesh Vaidya: Okay? So when you linearize record equation, you get a
+
+207
+00:26:20.540 --> 00:26:23.620
+Umesh Vaidya: sorry when Elena has Hamerton Jacobi equation, we get Ricardi.
+
+208
+00:26:24.290 --> 00:26:30.159
+Umesh Vaidya: So there are different regard equations. So Ricardi equation is basically is not just one equation
+
+209
+00:26:30.220 --> 00:26:40.139
+Umesh Vaidya: depending upon which problem you're looking at. If you're looking at optimal control problem, you get one Riccardi equation. If you're looking at. The input output gain of a linear system. You get a different Ricard equation
+
+210
+00:26:40.790 --> 00:26:45.460
+Umesh Vaidya: but they have the same structure. They have the same form. Okay.
+
+211
+00:26:45.930 --> 00:26:52.170
+Umesh Vaidya: I can tell you one form, and then you get all the other forms from that equation. Even if you do robust control
+
+212
+00:26:52.200 --> 00:26:55.959
+Umesh Vaidya: linear robot control, it's a Ricardi equation. It's called generalized Ricardi equation.
+
+213
+00:26:56.700 --> 00:27:09.960
+Umesh Vaidya: So similarly, whenever you do nonlinear systems like here, I told about L. 2 gain. I can talk about optimal control of a nonlinear system. I can talk about robust control, the H infinity control of nonlinear system. All these are basically can be solved.
+
+214
+00:27:10.070 --> 00:27:13.649
+Umesh Vaidya: Problem can be solved by solving a Hamiltonian equation.
+
+215
+00:27:13.670 --> 00:27:15.140
+Umesh Vaidya: Unfortunately.
+
+216
+00:27:15.250 --> 00:27:18.870
+Umesh Vaidya: it's easier to write down an Lmi to solve a Ricardi equation
+
+217
+00:27:18.950 --> 00:27:26.439
+Umesh Vaidya: for right solving a Rehyman and Jacob equation. You can write down, you can. It's an infinite dimensional system of equations. You cannot write down.
+
+218
+00:27:26.750 --> 00:27:30.110
+Umesh Vaidya: you cannot solve the varies. So that's the unfortunate thing.
+
+219
+00:27:30.260 --> 00:27:36.039
+Umesh Vaidya: So even if even if you're doing all the reinforcement, learning everything. It's all Hamiltonian.
+
+220
+00:27:36.210 --> 00:27:39.610
+Umesh Vaidya: You don't know how to solve it. And that's why all this sort of
+
+221
+00:27:40.200 --> 00:27:44.129
+Umesh Vaidya: heuristics that are. That's all these different algorithms there to actually
+
+222
+00:27:45.390 --> 00:27:46.570
+Umesh Vaidya: approximate it.
+
+223
+00:27:47.380 --> 00:27:49.989
+Umesh Vaidya: But it's all basically Hamilton jeopardy.
+
+224
+00:27:50.970 --> 00:27:58.589
+Umesh Vaidya: Okay, so I will write down one Hamilton Jacobi equation for you, and then also write down linear counterpart of it
+
+225
+00:27:58.640 --> 00:28:10.239
+Umesh Vaidya: which comes when it comes to checking the stability or checking the input output gain for a linear system. Okay? So the Hamilton Jacobi equation is is something for the L to gain problem is looks something like this.
+
+226
+00:28:14.830 --> 00:28:19.809
+Umesh Vaidya: So let's just take a single input single output system. So why is a scalar, use a scalar.
+
+227
+00:28:20.210 --> 00:28:25.140
+Umesh Vaidya: So in that case, this Hamilton Jacobi equation a J. Equation
+
+228
+00:28:26.860 --> 00:28:28.590
+Umesh Vaidya: to verify
+
+229
+00:28:29.030 --> 00:28:31.700
+Umesh Vaidya: input output.
+
+230
+00:28:34.310 --> 00:28:37.129
+Umesh Vaidya: L. 2. Gain is of the form.
+
+231
+00:28:38.550 --> 00:28:41.700
+Umesh Vaidya: partial, v. Partial XF of x
+
+232
+00:28:43.080 --> 00:28:45.589
+Umesh Vaidya: plus one by 4 gamma squared.
+
+233
+00:28:45.930 --> 00:28:54.420
+Umesh Vaidya: partial, v. Partial X, gg. Transpose partial, v partial X transpose plus x square of X
+
+234
+00:28:54.810 --> 00:28:56.079
+Umesh Vaidya: less than equal to 0.
+
+235
+00:28:57.560 --> 00:29:03.249
+Umesh Vaidya: This is a J. Inequality. Okay, so if you can solve this inequality.
+
+236
+00:29:04.990 --> 00:29:07.489
+Umesh Vaidya: if you can solve this, so what do you have to solve this for
+
+237
+00:29:11.410 --> 00:29:13.830
+Umesh Vaidya: here to solve this for V and Gamma.
+
+238
+00:29:14.040 --> 00:29:24.969
+Umesh Vaidya: because Gamma is the gain. So so let's say, if you can solve this, let's say, I told you there are 2. One thing is, you're to find. Your system is L. 2 gains table. Once you know, the system is L to gain stable. Then you find a gamma.
+
+239
+00:29:25.100 --> 00:29:26.180
+Umesh Vaidya: Right? So it's
+
+240
+00:29:26.260 --> 00:29:34.890
+Umesh Vaidya: there are 2 unknowns here. So he basically tells you the system is able to gain stable. If there is a fee. If there is a V which is positive.
+
+241
+00:29:35.270 --> 00:29:39.660
+Umesh Vaidya: and we satisfy the inequality for a given gamma, then you say that
+
+242
+00:29:39.960 --> 00:29:42.930
+Umesh Vaidya: the system has a to gain which is less than or equal to Kappa.
+
+243
+00:29:44.100 --> 00:29:48.019
+Umesh Vaidya: Okay, so what you do is you pick a gamma, let's say a thousand.
+
+244
+00:29:48.280 --> 00:29:57.420
+Umesh Vaidya: and then try to solve this. If there is a solution, then know that oh, I know the system has l. 2 again, at least less than equal to 1,000. Then you reduce the comma.
+
+245
+00:29:58.020 --> 00:29:59.430
+Umesh Vaidya: and then you again solve it.
+
+246
+00:29:59.720 --> 00:30:07.060
+Umesh Vaidya: Okay? So that's the that's the procedure.  you you use.
+
+247
+00:30:07.530 --> 00:30:09.040
+Umesh Vaidya: So
+
+248
+00:30:09.170 --> 00:30:21.070
+Umesh Vaidya: to solve this edge. Equation. Okay?  So what do you? What do you see in this edgy equation? What is that? Why is it so difficult to solve?
+
+249
+00:30:38.920 --> 00:30:40.180
+Umesh Vaidya: See, the V
+
+250
+00:30:40.720 --> 00:30:46.649
+Umesh Vaidya: is is, if there exists a V which satisfies this, then the V is actually a function.
+
+251
+00:30:48.860 --> 00:30:50.300
+easily have the function.
+
+252
+00:30:51.120 --> 00:30:54.809
+Umesh Vaidya: So this is the connection between the app, the function which is the
+
+253
+00:30:54.980 --> 00:30:56.450
+Umesh Vaidya: internal stability
+
+254
+00:30:56.480 --> 00:30:58.509
+Umesh Vaidya: and the input prostability.
+
+255
+00:31:00.470 --> 00:31:03.050
+Umesh Vaidya: Okay, so if you can solve this for the V,
+
+256
+00:31:03.620 --> 00:31:04.470
+Umesh Vaidya: then
+
+257
+00:31:05.860 --> 00:31:07.640
+Umesh Vaidya: then you know that.
+
+258
+00:31:08.120 --> 00:31:16.649
+Umesh Vaidya:  So if you notice this equation, you will. You'll see that it is difficult to solve, because it's a
+
+259
+00:31:16.790 --> 00:31:18.810
+Umesh Vaidya: nonlinear equation in V
+
+260
+00:31:19.320 --> 00:31:23.339
+Umesh Vaidya: right? Because this partial v partial X, partial, v partial X that multiplying.
+
+261
+00:31:23.820 --> 00:31:29.469
+Umesh Vaidya: So it's a quadratic nonlinearity, and it's a function of X. So it's actually a nonlinear error.
+
+262
+00:31:30.270 --> 00:31:32.649
+Umesh Vaidya: Non-linear pd.
+
+263
+00:31:34.230 --> 00:31:37.380
+Umesh Vaidya: it's a nonlinear. Pd. If I make it equal to 0, then it's a nonlinear. Pd.
+
+264
+00:31:38.760 --> 00:31:39.520
+Umesh Vaidya: okay.
+
+265
+00:31:40.530 --> 00:31:42.189
+Umesh Vaidya: so that's why it's difficult to solve.
+
+266
+00:31:42.430 --> 00:31:48.789
+Umesh Vaidya: Do you see why it is also, if there extra V for a given gamma, it's also serve as a Liabna function. Do you see that?
+
+267
+00:32:04.870 --> 00:32:06.409
+Umesh Vaidya: So what is the layapner function
+
+268
+00:32:07.020 --> 00:32:12.889
+Umesh Vaidya: like? I want to say that what I'm saying is that okay, let's say that system is input output L to gain stable.
+
+269
+00:32:13.570 --> 00:32:18.839
+Umesh Vaidya: Then it is also Liapno stable. That is, when I don't have a control, input
+
+270
+00:32:19.630 --> 00:32:21.360
+Umesh Vaidya: I have vdot
+
+271
+00:32:21.560 --> 00:32:24.269
+Umesh Vaidya: less than 0. Do you see, it's a V dot less than 0
+
+272
+00:32:24.460 --> 00:32:26.150
+Umesh Vaidya: when the use when
+
+273
+00:32:26.770 --> 00:32:28.520
+Umesh Vaidya: when the control input U is 0,
+
+274
+00:32:35.030 --> 00:32:36.229
+Umesh Vaidya: what is v dot.
+
+275
+00:32:39.630 --> 00:32:42.269
+Umesh Vaidya: then you is you? v.is.
+
+276
+00:32:48.370 --> 00:32:51.479
+Umesh Vaidya: we got his partial v partial XF of x right
+
+277
+00:32:53.170 --> 00:32:56.649
+Umesh Vaidya: when x when u equal to 0, what is v dot
+
+278
+00:33:02.700 --> 00:33:05.659
+Umesh Vaidya: b.is partial, v partial x
+
+279
+00:33:05.690 --> 00:33:07.410
+Umesh Vaidya: times f of x no.
+
+280
+00:33:12.230 --> 00:33:16.169
+Umesh Vaidya: hey me. And now, what is partial, v partial Xfs
+
+281
+00:33:18.000 --> 00:33:19.280
+Umesh Vaidya: from this equation?
+
+282
+00:33:22.950 --> 00:33:26.899
+Umesh Vaidya: Huh? So you just move all these things on the left hand side.
+
+283
+00:33:26.920 --> 00:33:38.750
+Umesh Vaidya: right? It is less than equal to minus one over 4 gamma squared, partial v. Partial. X, gg. Transpose partial v. Partial X transpose minus x squared. And what does this quantity looks like.
+
+284
+00:33:39.430 --> 00:33:40.609
+Umesh Vaidya: is it negative?
+
+285
+00:33:47.860 --> 00:33:50.460
+Umesh Vaidya: It is negative, because this H square is positive.
+
+286
+00:33:51.060 --> 00:33:57.799
+Umesh Vaidya: and then this is a square term, right? Because partial, v partial. X. This is a square of partial v partial X times. G,
+
+287
+00:33:58.860 --> 00:34:07.299
+Umesh Vaidya: right. This is a square of partial v partial X, and G, so in left hand side is negative. That means this whole thing is strictly less than 0.
+
+288
+00:34:08.179 --> 00:34:10.279
+Umesh Vaidya: Okay, that means v.is
+
+289
+00:34:11.370 --> 00:34:14.790
+Umesh Vaidya: less than 0. That means system is
+
+290
+00:34:15.150 --> 00:34:17.039
+Umesh Vaidya: stable without the input
+
+291
+00:34:17.370 --> 00:34:18.050
+Umesh Vaidya: okay.
+
+292
+00:34:19.949 --> 00:34:20.920
+Umesh Vaidya: So
+
+293
+00:34:21.290 --> 00:34:30.160
+Umesh Vaidya: the the the Hamilton Jacobi solution actually is also the solution of Hamilton Jacobi equation is also a Liabna function.
+
+294
+00:34:32.420 --> 00:34:36.729
+Umesh Vaidya: Okay? Solution of Hamilton. Jacobi equation is also liapna function.
+
+295
+00:34:37.300 --> 00:34:41.310
+Umesh Vaidya: Now, let's say, if I do this for a special case of linear system.
+
+296
+00:34:44.120 --> 00:34:47.879
+Umesh Vaidya: let's say, if you do this for a linear system, any questions on this.
+
+297
+00:34:51.460 --> 00:34:54.219
+Umesh Vaidya: Is there some distraction outside? You want to close it? Or.
+
+298
+00:34:56.370 --> 00:34:57.180
+Umesh Vaidya: yeah.
+
+299
+00:35:06.240 --> 00:35:09.729
+Umesh Vaidya: So let's say, you do this for linear system. See what you get.
+
+300
+00:35:11.540 --> 00:35:15.659
+Umesh Vaidya: Let's say, Xort equals ax plus PU,
+
+301
+00:35:15.980 --> 00:35:17.670
+Umesh Vaidya: y, equal to CX.
+
+302
+00:35:18.810 --> 00:35:28.430
+Umesh Vaidya: Okay. can you write it down now? This equation? So what will be this equation now. partial, v partial X ax
+
+303
+00:35:28.540 --> 00:35:36.550
+Umesh Vaidya: right? And and so f of X, I'll replace ax plus one over 4 gamma square, partial, v partial X. What is G
+
+304
+00:35:38.090 --> 00:35:39.299
+Umesh Vaidya: for linear system?
+
+305
+00:35:44.180 --> 00:35:47.290
+Umesh Vaidya: Huh? No. G,
+
+306
+00:35:47.450 --> 00:35:49.269
+Umesh Vaidya: B. Right. B
+
+307
+00:35:49.460 --> 00:35:52.790
+Umesh Vaidya: gg, transpose. So BV, transpose partial v partial x
+
+308
+00:35:52.870 --> 00:35:56.139
+Umesh Vaidya: plus h square, which is CX squared. Right?
+
+309
+00:35:56.510 --> 00:35:59.210
+Umesh Vaidya:  cx squared.
+
+310
+00:35:59.980 --> 00:36:04.770
+Umesh Vaidya: Let's think of 0, does it? Now? The question is, can I solve this?
+
+311
+00:36:07.560 --> 00:36:10.209
+Umesh Vaidya: Now I have more structure. Can I solve this now.
+
+312
+00:36:17.460 --> 00:36:23.790
+Umesh Vaidya: So what? What you should remember? I want to find a VI remember what I like. I was like telling you again and again.
+
+313
+00:36:24.170 --> 00:36:27.109
+Umesh Vaidya: Yes, so what should we? The what should I assume for v.
+
+314
+00:36:30.260 --> 00:36:31.479
+Umesh Vaidya: X. Transpose?
+
+315
+00:36:33.790 --> 00:36:37.289
+Umesh Vaidya: Because a linear system? What is the V should work.
+
+316
+00:36:38.370 --> 00:36:39.669
+Umesh Vaidya: what we should work?
+
+317
+00:36:40.400 --> 00:36:50.919
+Umesh Vaidya: It's quadratic form. X. Transpose. Px. You can always assume external speed because it's a linear system, because X transpose. Px does not work. Nothing will work.
+
+318
+00:36:51.960 --> 00:36:58.339
+Umesh Vaidya: So let's assume V equals 2 x transpose px, and let's substitute this. So what is partial? V partial X
+
+319
+00:36:59.400 --> 00:37:03.000
+Umesh Vaidya: or external? Speak, do you add by 2? Yes.
+
+320
+00:37:03.160 --> 00:37:06.090
+Umesh Vaidya:  just to.
+
+321
+00:37:12.430 --> 00:37:16.129
+Umesh Vaidya: okay. So this partial V partial X becomes X transpose
+
+322
+00:37:18.530 --> 00:37:20.689
+Umesh Vaidya: BAX,
+
+323
+00:37:21.880 --> 00:37:28.820
+Umesh Vaidya: okay. plus one over 4 gamma square. This is
+
+324
+00:37:29.100 --> 00:37:32.140
+Umesh Vaidya: X transpose. B,
+
+325
+00:37:32.430 --> 00:37:34.660
+Umesh Vaidya: Bb, transpose
+
+326
+00:37:35.030 --> 00:37:42.190
+Umesh Vaidya: px plus x. So where I'll write this CX squared, I can write this as X transpose. C
+
+327
+00:37:42.280 --> 00:37:44.270
+Umesh Vaidya: transpose. Cx.
+
+328
+00:37:46.920 --> 00:37:51.320
+Umesh Vaidya: okay. Cx, squared is nothing but X transpose. C transpose. Cx.
+
+329
+00:37:53.450 --> 00:37:55.859
+Umesh Vaidya: Okay, no. Do you see something?
+
+330
+00:38:20.910 --> 00:38:29.020
+Umesh Vaidya: Now? You can actually do the following, so you say, oh, I can write this as X transpose. PA plus a transpose P. Divided by 2 x
+
+331
+00:38:29.110 --> 00:38:38.520
+Umesh Vaidya: plus one over 4 gamma squared, X. Transpose PBV. Transpose PX, plus X transpose. C transpose CX.
+
+332
+00:38:39.080 --> 00:38:40.700
+Umesh Vaidya: And I can pull that X
+
+333
+00:38:40.790 --> 00:38:54.909
+Umesh Vaidya: transposed common from this left and right, and then they can subtract this. So I'll just do this. A transpose p plus PA plus. I'll take the call. 2 outside. This becomes one over 2 gamma square
+
+334
+00:38:55.030 --> 00:38:58.460
+Umesh Vaidya: X transpose X will disappear. Now.
+
+335
+00:39:02.800 --> 00:39:09.250
+Umesh Vaidya: PB. Transpose PE, plus 2 times C transpose. C.
+
+336
+00:39:10.640 --> 00:39:11.470
+Thanks.
+
+337
+00:39:18.040 --> 00:39:18.840
+Umesh Vaidya: Okay.
+
+338
+00:39:20.140 --> 00:39:26.129
+Umesh Vaidya: So see, this is, you know, what? How do you prick the trick? Go from here to here.
+
+339
+00:39:27.210 --> 00:39:31.339
+Umesh Vaidya: So this is always whenever. So what is this external? Px.
+
+340
+00:39:31.460 --> 00:39:32.609
+Umesh Vaidya: it's a scalar.
+
+341
+00:39:33.040 --> 00:39:38.820
+Umesh Vaidya: Okay, because we have the X is a row vector X transfer the row, vector X is a column, right? So this is a scalar. Okay.
+
+342
+00:39:40.340 --> 00:39:45.460
+Umesh Vaidya: so whenever you have a scalar. So whenever you have something like X transpose. Qx.
+
+343
+00:39:46.150 --> 00:39:53.689
+Umesh Vaidya: So this is a scalar where Q is a matrix whenever you X transpose. Qx. What is only matter is the symmetric part of Q.
+
+344
+00:39:54.830 --> 00:39:57.149
+Umesh Vaidya: Yeah. One, you might think matters is the symmetric part of.
+
+345
+00:39:57.550 --> 00:40:04.359
+Umesh Vaidya: So you can write this, X transpose. Qx as X transpose. Qx, plus x transpose. Q. Transpose. X.
+
+346
+00:40:14.140 --> 00:40:18.979
+Umesh Vaidya: So whenever you have. X transpose. Qx. One thing which matters the symmetric part of Q.
+
+347
+00:40:20.000 --> 00:40:29.190
+Umesh Vaidya: Because x. Transpose. QX. Is same as if you take a transpose of this, what is the transpose of this? X transpose? Q. Transpose? X, right? It's a scalar.
+
+348
+00:40:29.300 --> 00:40:34.750
+Umesh Vaidya: So this transfer of the scale is a scale itself. So this is same as this. You agree.
+
+349
+00:40:36.150 --> 00:40:37.860
+Umesh Vaidya: this scalar, this is scalar.
+
+350
+00:40:38.190 --> 00:40:48.319
+Umesh Vaidya: Okay? So then you can write down X transpose Qx to be equal to x transpose qx plus x transpose Q. Transpose x. Divided by 2.
+
+351
+00:40:50.720 --> 00:40:56.790
+Umesh Vaidya: So this is nothing but x transpose q plus q transpose, divided by 2 x.
+
+352
+00:40:57.510 --> 00:41:00.399
+Umesh Vaidya: where q plus Q transpose is a symmetric part of the cube.
+
+353
+00:41:01.870 --> 00:41:07.389
+Umesh Vaidya: So that's what you're doing. So whenever you have PA, you can write down a symmetric part of PA, which is PA plus a transpose. P.
+
+354
+00:41:09.730 --> 00:41:12.160
+Umesh Vaidya: Okay. Now, what is this?
+
+355
+00:41:14.870 --> 00:41:28.270
+Umesh Vaidya: Now, this has to be less than equal to 0 for all X. What does that mean? It can pull out the X outside. So a transpose p plus PA plus one over 2 gamma square. PB. Transpose p plus 2 C.
+
+356
+00:41:28.410 --> 00:41:31.849
+Umesh Vaidya: Council C has to be less than equal to 0.
+
+357
+00:41:45.920 --> 00:41:47.059
+Umesh Vaidya: And what is this?
+
+358
+00:41:57.820 --> 00:42:00.000
+Umesh Vaidya: This is, this is a Ricardi equation.
+
+359
+00:42:01.810 --> 00:42:05.790
+Umesh Vaidya: This is a regarding question. Okay? And you can write this. Lemi. Now
+
+360
+00:42:06.200 --> 00:42:12.830
+Umesh Vaidya: you can write an Lmi to solve this Ricard equation. So you have to solve this Ricard equation for P. Now notice that P. Is again quadratic here.
+
+361
+00:42:13.130 --> 00:42:20.839
+Umesh Vaidya: Okay, but there is. This mi! There's a trick that he used. and that comes from the fact that there is a there is a Hamiltonian for this. So that's
+
+362
+00:42:21.030 --> 00:42:28.609
+Umesh Vaidya: beyond this scope. But hopefully you'll you'll study some of that in the Lmi course, is that now you can write an Lmi to solve this.
+
+363
+00:42:30.010 --> 00:42:33.160
+Umesh Vaidya: So this is a Ricardi equation that you get when you
+
+364
+00:42:33.450 --> 00:42:36.350
+Umesh Vaidya: when you do the l. 2 game
+
+365
+00:42:37.480 --> 00:42:40.170
+Umesh Vaidya: tell to get analysis of a linear system.
+
+366
+00:42:54.230 --> 00:42:56.870
+Umesh Vaidya: In fact, when you actually do for linear system
+
+367
+00:42:58.580 --> 00:43:00.249
+Umesh Vaidya: and do it for linear system.
+
+368
+00:43:01.090 --> 00:43:07.759
+Umesh Vaidya:  you have to solve this for the P. And gamma.
+
+369
+00:43:07.820 --> 00:43:14.160
+Umesh Vaidya: You can actually solve them simultaneously for the user system. You can write down the whole thing as one single element
+
+370
+00:43:14.790 --> 00:43:18.479
+Umesh Vaidya: for for linear system, for nonlinear system, we cannot
+
+371
+00:43:18.710 --> 00:43:27.620
+Umesh Vaidya: for the new system. You can write on one Lmi, which will tell you the P. But at the same time it also tell you the value of gam, the smallest value of come.
+
+372
+00:43:29.160 --> 00:43:29.830
+Okay.
+
+373
+00:43:34.080 --> 00:43:34.870
+Umesh Vaidya: great.
+
+374
+00:43:36.190 --> 00:43:39.200
+Umesh Vaidya: Now the question is, why do you want to know the Ldp.
+
+375
+00:43:40.230 --> 00:43:41.989
+Umesh Vaidya: Why do I care about that to gain?
+
+376
+00:43:43.570 --> 00:43:44.270
+Umesh Vaidya: Okay.
+
+377
+00:43:46.250 --> 00:43:50.000
+Umesh Vaidya: why should II mean, I know stability tells me.
+
+378
+00:43:51.520 --> 00:43:57.690
+Umesh Vaidya: Yeah. I mean, I can see that the stability is useful. But what is the what is the input output gain is useful for
+
+379
+00:44:02.650 --> 00:44:04.429
+Umesh Vaidya: so the improper gain
+
+380
+00:44:09.210 --> 00:44:11.490
+Umesh Vaidya: is plays a very important role
+
+381
+00:44:12.080 --> 00:44:14.800
+Umesh Vaidya: when you are actually trying to
+
+382
+00:44:15.870 --> 00:44:21.680
+Umesh Vaidya:  when you're talking about
+
+383
+00:44:21.690 --> 00:44:26.119
+Umesh Vaidya: feedback interconnection or interconnection of multiple systems like multi agent system.
+
+384
+00:44:27.780 --> 00:44:39.579
+Umesh Vaidya: Because what this improper gain does is actually, it allows you to  So you have a system you have. You have a very complicated system.
+
+385
+00:44:40.400 --> 00:44:44.549
+Umesh Vaidya: which is, if I write down and just a block diagram, historical F of X
+
+386
+00:44:44.710 --> 00:44:48.619
+Umesh Vaidya: plus g of XU, and y equal h of x.
+
+387
+00:44:48.790 --> 00:44:50.769
+Umesh Vaidya: so there's a U, there is a Y
+
+388
+00:44:51.380 --> 00:44:56.629
+Umesh Vaidya: right? It allows me to actually replace this complicated system with a single number, Gamma.
+
+389
+00:44:59.140 --> 00:45:09.009
+Umesh Vaidya: because, as far as the input and output is concerned, all that matter is the what's the gain of the single right? Because now I can actually take this. So let's say, I have 2 systems.
+
+390
+00:45:09.450 --> 00:45:11.070
+Umesh Vaidya: I have 2 systems to begin with.
+
+391
+00:45:11.130 --> 00:45:13.769
+Umesh Vaidya: let's say, system one
+
+392
+00:45:14.270 --> 00:45:15.350
+Umesh Vaidya: and
+
+393
+00:45:16.470 --> 00:45:17.719
+Umesh Vaidya: and system 2.
+
+394
+00:45:18.460 --> 00:45:30.609
+Umesh Vaidya: Where system one is given by x, one dot equals f, one x one plus g, one x one u, one y. One equals h, one x one. Okay.
+
+395
+00:45:30.730 --> 00:45:34.949
+Umesh Vaidya: and system 2 is similarly x, 2 dot equals F, 2 x 2
+
+396
+00:45:35.010 --> 00:45:37.769
+Umesh Vaidya: plus g, 2 x 2 u, 2
+
+397
+00:45:37.940 --> 00:45:41.229
+Umesh Vaidya: y 2 equals. H, 2 of x.
+
+398
+00:45:41.530 --> 00:45:48.229
+Umesh Vaidya: right? So you have u one. You have y one you have, let's say u, one and y one.
+
+399
+00:45:48.960 --> 00:45:49.710
+Umesh Vaidya: Right?
+
+400
+00:45:51.210 --> 00:45:52.010
+Umesh Vaidya: Right?
+
+401
+00:45:53.410 --> 00:45:56.949
+Umesh Vaidya: You have 2 systems. Now. each of them have some
+
+402
+00:45:57.470 --> 00:46:05.979
+Umesh Vaidya:  each of them have their own input own output. That means then I can actually compute them to gain of each of them. Right
+
+403
+00:46:07.770 --> 00:46:09.939
+now I can do a feedback interconnection.
+
+404
+00:46:10.930 --> 00:46:16.419
+Umesh Vaidya: because, as far as the the interconnection of these 2 systems is concerned. I can. Only I only care about
+
+405
+00:46:17.760 --> 00:46:18.750
+Umesh Vaidya: hear about
+
+406
+00:46:19.210 --> 00:46:25.910
+Umesh Vaidya: input output ports because the input and output is basically what allows your system allows you to
+
+407
+00:46:26.220 --> 00:46:29.700
+Umesh Vaidya: it basically captures how the system is interacting with the inbox
+
+408
+00:46:30.970 --> 00:46:40.459
+Umesh Vaidya: right? Basically capture, how system is intractable in month. Now. I I mean, I like to know, can I do this feedback in direction?
+
+409
+00:46:41.600 --> 00:46:46.230
+Umesh Vaidya: And I do this feedback and kind of feedback interconnection of this system? Right?
+
+410
+00:46:50.450 --> 00:46:51.250
+Umesh Vaidya: So
+
+411
+00:46:51.740 --> 00:46:59.660
+Umesh Vaidya: let's say, I computed, when I'm when I'm looking at the system, one. I can compute the gain of the system, one separately without knowing system 2.
+
+412
+00:47:00.770 --> 00:47:07.870
+Umesh Vaidya: And when it comes to System 2. I can look at the gain of a system. 2 without knowing system. One imagine like, now, I have like 100 systems.
+
+413
+00:47:08.210 --> 00:47:12.420
+Umesh Vaidya: and I'm going to interconnect them somehow I don't know how. But then.
+
+414
+00:47:12.550 --> 00:47:14.450
+Umesh Vaidya: if I try to actually
+
+415
+00:47:14.520 --> 00:47:23.709
+Umesh Vaidya:  look at the stability of the so one of the thing I care about is that when I interconnect this system I need, I want to make sure that this interconnection is stable right?
+
+416
+00:47:24.390 --> 00:47:38.489
+Umesh Vaidya: So it'll it will not be a very wise thing to do is actually interconnect them. And then look at the stability of the entire system. because that will be. That will be difficult to do, because we have 1,000 system. You get a huge system when you interconnect that
+
+417
+00:47:38.660 --> 00:47:45.570
+Umesh Vaidya: right? So it will be nice to actually come up with the certificate of stability whatever the stability of certificate is
+
+418
+00:47:45.860 --> 00:47:47.620
+Umesh Vaidya: of the individual subsystems.
+
+419
+00:47:47.640 --> 00:47:50.449
+Umesh Vaidya: without actually knowing the other subsistence right.
+
+420
+00:47:52.040 --> 00:47:58.069
+Umesh Vaidya: and then give conditions policy of interconnection based on the property of the initial subsystems.
+
+421
+00:47:59.150 --> 00:48:13.169
+Umesh Vaidya: And that's exactly what this input output would gain will allow you to do right. So let's say, I have this system which has some gain as gamma one. This is some system is gain as Gamma 2. And then I can ask, Okay, can I interconnect these 2 system? What do you answer will be.
+
+422
+00:48:14.190 --> 00:48:17.930
+Umesh Vaidya: under what condition on gamma? One gamma? 2. You can actually interconnect this.
+
+423
+00:48:26.050 --> 00:48:27.050
+Umesh Vaidya: What do you think
+
+424
+00:48:30.360 --> 00:48:31.160
+Umesh Vaidya: you know?
+
+425
+00:48:34.360 --> 00:48:40.660
+Umesh Vaidya: Now you're you're having a feedback loop. And right, see, this is a feedback loop
+
+426
+00:48:41.360 --> 00:48:51.790
+Umesh Vaidya: and As I said this, gamma and gamma 2 allows you to sort of capture. The encapsulate all the information or system in a single number.
+
+427
+00:48:53.390 --> 00:49:00.690
+Umesh Vaidya: You're getting rid of all this F, one g. One h, one f, 2 g. 2 h. 2, and just giving it one number.
+
+428
+00:49:01.040 --> 00:49:02.750
+Umesh Vaidya: So what do you think will be the condition
+
+429
+00:49:02.820 --> 00:49:06.610
+Umesh Vaidya: on the stability of the feedback interconnection in terms of comma one comma
+
+430
+00:49:11.190 --> 00:49:12.920
+Umesh Vaidya: comma less than one, and
+
+431
+00:49:18.400 --> 00:49:22.970
+Umesh Vaidya: it's a game. So if you look at it, think in terms of linear system, it's a gain.
+
+432
+00:49:22.980 --> 00:49:25.150
+Umesh Vaidya: What's the product per option B
+
+433
+00:49:25.620 --> 00:49:26.520
+Umesh Vaidya: less than one.
+
+434
+00:49:27.570 --> 00:49:28.710
+Umesh Vaidya: Also
+
+435
+00:49:28.830 --> 00:49:31.370
+that I'm supposed to be Youtube live.
+
+436
+00:49:32.960 --> 00:49:35.479
+Umesh Vaidya: Are you saying that you're doing with the same report?
+
+437
+00:49:36.340 --> 00:49:50.860
+Umesh Vaidya: No. So the output of the system. 2. Is the info system, one out for a system. One is the in pro system. I guess, just confusing. As you were saying, like 5 one is people that you want us to win. Yes, that's exactly what it is.
+
+438
+00:49:51.650 --> 00:49:54.370
+Umesh Vaidya: Why, one is you one, and
+
+439
+00:49:54.470 --> 00:49:58.619
+Umesh Vaidya: oh, sorry this is you, too. That's what you mean.
+
+440
+00:50:01.190 --> 00:50:05.109
+Umesh Vaidya: So you're taking the opera system on and feeding it to the tool, and so on.
+
+441
+00:50:09.030 --> 00:50:12.619
+Umesh Vaidya: So that's one of the application of this input output
+
+442
+00:50:12.820 --> 00:50:23.079
+Umesh Vaidya:  into output game. It basically allows you to talk about. Now, interconnection of nonlinear systems.
+
+443
+00:50:23.150 --> 00:50:24.520
+Umesh Vaidya: feedback interconnection.
+
+444
+00:50:24.600 --> 00:50:32.690
+Umesh Vaidya: This is just simple feedback. But you could have a feedback or networks. Right? So you have. Imagine that you have.
+
+445
+00:50:32.910 --> 00:50:40.869
+Umesh Vaidya: Let's say a 5 system. So you have system one system, 2, system 3. System 4 and some system 5.
+
+446
+00:50:41.540 --> 00:50:46.780
+Umesh Vaidya: Right? Each of them are in proper system. And then you're interconnecting them in some some configuration.
+
+447
+00:50:48.600 --> 00:50:51.069
+Umesh Vaidya: right? So this is like
+
+448
+00:50:53.140 --> 00:50:54.700
+Umesh Vaidya: communication channels.
+
+449
+00:50:54.920 --> 00:51:04.050
+Umesh Vaidya: Now, you want to know with this kind of configuration is this overall network, stable or not. and that you can reduce it to just simple, improper gain ounces.
+
+450
+00:51:04.360 --> 00:51:12.360
+Umesh Vaidya: So you're kind of separating out the problem. Now, right? So you're you're first looking at the initial subsystem, doing all this complicated Aj equation stuff
+
+451
+00:51:12.990 --> 00:51:18.550
+Umesh Vaidya: to find the gains. Once you know the gains, then you just treating all of them as a linear system
+
+452
+00:51:19.300 --> 00:51:20.870
+Umesh Vaidya: at the level of the games.
+
+453
+00:51:23.440 --> 00:51:27.020
+Umesh Vaidya: So for those like graphs. Yes.
+
+454
+00:51:29.070 --> 00:51:29.880
+I mean.
+
+455
+00:51:30.130 --> 00:51:35.099
+Umesh Vaidya: seems like the the cameras be more complicated. But
+
+456
+00:51:35.420 --> 00:51:40.100
+Umesh Vaidya: you can write that. It really depends on your loop, so you can write that as an Lmi
+
+457
+00:51:40.910 --> 00:51:50.739
+Umesh Vaidya: will be. The Lema will have that information about the network topology. So you have to account for the network couple. So there's a network here. You can cap encapsulate that in the matrix.
+
+458
+00:51:51.140 --> 00:51:55.070
+Umesh Vaidya: And then you'll have to deal with that. Write the condition in terms of matrix.
+
+459
+00:51:55.170 --> 00:51:59.710
+Umesh Vaidya: I mean, I'm not gonna talk about that because that's kind of take us. But I just telling you, what's the
+
+460
+00:52:01.770 --> 00:52:04.669
+Umesh Vaidya: yeah, what's the motivation for studying this improv. Okay?
+
+461
+00:52:05.410 --> 00:52:12.570
+Umesh Vaidya: And it actually is powerful even in case of linear systems. In fact, for linear system, you can compute it nicely
+
+462
+00:52:13.510 --> 00:52:16.680
+Umesh Vaidya: right? You can compute this thing by solving this Ricardi equation.
+
+463
+00:52:17.250 --> 00:52:21.190
+Umesh Vaidya: And then you can talk about this inappropriate games. Yeah.
+
+464
+00:52:24.140 --> 00:52:24.840
+okay.
+
+465
+00:52:32.060 --> 00:52:33.100
+Umesh Vaidya: any questions.
+
+466
+00:52:45.870 --> 00:52:52.670
+Umesh Vaidya: So let's do this small game theorem. I want to sort of tell you the small game theorem. and then we can. I mean
+
+467
+00:52:52.770 --> 00:52:58.789
+Umesh Vaidya: you. You got the answer right, Gamma. One times, gamma, 2 should be less than one. But how do you actually prove that? So let me just
+
+468
+00:52:58.990 --> 00:52:59.850
+Umesh Vaidya: show that.
+
+469
+00:53:33.770 --> 00:53:35.830
+Umesh Vaidya: So let's see how system H, one
+
+470
+00:53:37.140 --> 00:53:40.530
+Umesh Vaidya: system H, 2. It says, y, one
+
+471
+00:53:48.350 --> 00:53:49.370
+Umesh Vaidya: by whom
+
+472
+00:53:50.380 --> 00:53:53.299
+Umesh Vaidya: negative feedback say, e, one.
+
+473
+00:53:53.570 --> 00:53:54.600
+Umesh Vaidya: you do
+
+474
+00:53:56.280 --> 00:54:09.099
+Umesh Vaidya: supposedly feedback. This is Youtube. So here the signals are defined slightly different. So instead of U, one is the input is E one instead of U to the input is E 2 you want and you do are reserved for inputs, which are outside, right?
+
+475
+00:54:09.440 --> 00:54:15.859
+Umesh Vaidya: So total mapping from U one to Youtube, to y, one to y, 2 is given by
+
+476
+00:54:15.930 --> 00:54:17.130
+Umesh Vaidya: the edge.
+
+477
+00:54:17.540 --> 00:54:27.700
+Umesh Vaidya: which consist of h, one and h, 2. So what is h, one. Here is the mapping from  m to N,
+
+478
+00:54:28.340 --> 00:54:31.039
+Umesh Vaidya: and it shows a mapping from excellent
+
+479
+00:54:32.090 --> 00:54:43.170
+Umesh Vaidya: because of the input, output, comp the the the input and output dimension should be compatible because the output is feed out of h, one is feed, as input, of the U. 2 h. 2.
+
+480
+00:54:43.200 --> 00:54:46.719
+Umesh Vaidya: That means the size of you. Y, one should be same as the size of you do.
+
+481
+00:54:46.740 --> 00:54:49.079
+Umesh Vaidya: And so another way on. Okay.
+
+482
+00:54:53.990 --> 00:54:57.330
+Umesh Vaidya: so what we assume is that both the H. One and H. 2.
+
+483
+00:54:58.840 --> 00:55:00.930
+Umesh Vaidya: Our finite gain is stable.
+
+484
+00:55:05.690 --> 00:55:09.059
+Umesh Vaidya: What does it mean? It means that y. One of tar
+
+485
+00:55:09.200 --> 00:55:15.209
+Umesh Vaidya: L is less than equal to gamma, one even tall. L plus and beta one
+
+486
+00:55:15.760 --> 00:55:17.969
+Umesh Vaidya: y 2 tau l
+
+487
+00:55:18.300 --> 00:55:21.370
+Umesh Vaidya: less than able to gamma 2 e to the
+
+488
+00:55:21.800 --> 00:55:24.169
+Umesh Vaidya: l plus beta. Okay?
+
+489
+00:55:24.510 --> 00:55:38.999
+Umesh Vaidya: So the the for out for system one even is the input. So that's why you're bounding the output, which is y one in terms of the input, which is E one and not you one, you, one is external input. So for this, we are just changing the notation slightly. Okay.
+
+490
+00:55:39.220 --> 00:55:43.879
+Umesh Vaidya: U, one is the external input. But even is the the actual real input to the H one.
+
+491
+00:55:44.000 --> 00:55:56.059
+Umesh Vaidya: Similarly, for h, 2 is the input, so output Y is bonded by some gamma, 2. Where gamma 2 now is again times the e 2 gamma e. 2, which is the input to the system tool.
+
+492
+00:56:00.240 --> 00:56:06.880
+Umesh Vaidya: So you have a event, tau e 2 tau as edo.
+
+493
+00:56:07.410 --> 00:56:10.460
+Umesh Vaidya: and in Utah as you on top
+
+494
+00:56:10.680 --> 00:56:11.780
+Umesh Vaidya: you do. The home
+
+495
+00:56:12.500 --> 00:56:15.210
+Umesh Vaidya: and white are as wire and dawn
+
+496
+00:56:15.520 --> 00:56:16.569
+wipe the dog.
+
+497
+00:56:30.460 --> 00:56:42.380
+Umesh Vaidya: So so what what we want, actually, what? Where, what, what are we trying to show? We are trying to show the following. So what we are assuming is that each of these individual subsystems, h. One and H. 2 have finite gain.
+
+498
+00:56:42.690 --> 00:56:46.959
+Umesh Vaidya: l. 2 gain, or in this case general L. Gain. Lp, game. Okay.
+
+499
+00:56:52.290 --> 00:56:56.329
+Umesh Vaidya: given by gamma and government. What you and know is that under what condition
+
+500
+00:56:56.430 --> 00:57:01.559
+Umesh Vaidya: this feedback interconnection will be stable. or what will be the gain of the feedback interconnection.
+
+501
+00:57:05.990 --> 00:57:08.940
+Umesh Vaidya: Note that by definition, again, has to be positive.
+
+502
+00:57:10.220 --> 00:57:11.910
+Umesh Vaidya: Definition again, has to be positive.
+
+503
+00:57:17.150 --> 00:57:19.420
+Umesh Vaidya: So we know that
+
+504
+00:57:20.540 --> 00:57:28.870
+Umesh Vaidya: because he is a T is a vector. and the the vector, norm is just using the vector, memory
+
+505
+00:57:29.000 --> 00:57:31.239
+Umesh Vaidya: even of talk.
+
+506
+00:57:32.030 --> 00:57:34.959
+Umesh Vaidya: plus E, 2 of Tau. L,
+
+507
+00:57:35.510 --> 00:57:36.280
+Umesh Vaidya: okay.
+
+508
+00:57:37.760 --> 00:57:48.599
+Umesh Vaidya: now, what is even after, even after, is nothing but y, 2 of the plus you and off that. What is Youtube after you 2 of to is y, one after plus
+
+509
+00:57:48.700 --> 00:57:49.900
+Umesh Vaidya: you do of know.
+
+510
+00:57:52.560 --> 00:57:53.290
+Umesh Vaidya: Okay?
+
+511
+00:57:55.360 --> 00:58:02.940
+Umesh Vaidya: So if you want to write down this, even after E, 2 of the. you can write them as 0 minus 1 1 0
+
+512
+00:58:03.610 --> 00:58:07.109
+Umesh Vaidya: y, one of the Y 2 of the plus
+
+513
+00:58:07.210 --> 00:58:09.790
+Umesh Vaidya: you, and off top you 2 off top.
+
+514
+00:58:11.600 --> 00:58:14.899
+Umesh Vaidya: So I'm just writing this in a matrix form.
+
+515
+00:58:19.550 --> 00:58:23.270
+Umesh Vaidya: And and then I can write this as some matrix s
+
+516
+00:58:25.050 --> 00:58:27.549
+Umesh Vaidya: times, y dot plus u dot.
+
+517
+00:58:32.900 --> 00:58:34.460
+Umesh Vaidya: That means why
+
+518
+00:58:36.620 --> 00:58:42.549
+Umesh Vaidya: oftar is s inverse e of top minus s inverse U of.
+
+519
+00:59:19.650 --> 00:59:25.250
+Umesh Vaidya: I guess, familiar with this stuff. Right? I mean, I wrote on this. you know, how does it that come right?
+
+520
+00:59:28.800 --> 00:59:29.840
+That's fine
+
+521
+00:59:29.970 --> 00:59:32.109
+Umesh Vaidya: is dragon inequality, right?
+
+522
+00:59:37.320 --> 00:59:41.419
+Umesh Vaidya: It's also called as cautious. Schwartz. No, no, it's not sorry. It's not
+
+523
+01:00:56.150 --> 01:01:01.609
+Umesh Vaidya: okay. so this you can actually say that
+
+524
+01:01:01.740 --> 01:01:12.500
+Umesh Vaidya: y of is less than equal to some constant C one E of the plus some constant c, 2 u of. So what is what is basically happening is that
+
+525
+01:01:13.260 --> 01:01:17.970
+Umesh Vaidya:  what is basically happening is
+
+526
+01:01:18.580 --> 01:01:29.500
+Umesh Vaidya: because this matrix S is invertible. You can always bound this y by some norm, some c, one times E of the plus some C 2 times U of th.
+
+527
+01:01:29.820 --> 01:01:31.380
+Umesh Vaidya: where c, one and C 2
+
+528
+01:01:35.500 --> 01:01:38.150
+Umesh Vaidya: are essentially the norm of
+
+529
+01:01:44.090 --> 01:01:45.770
+Umesh Vaidya: all facing books. Okay.
+
+530
+01:01:52.530 --> 01:02:00.740
+Umesh Vaidya: we, we don't really know, want to know exactly what c, one, c. 2 is just that fact that they we know that they exist. They're not infinite. They're fine. Okay?
+
+531
+01:02:00.750 --> 01:02:10.039
+Umesh Vaidya: Because S is invertible. You can see that S. This is S. What's the determinant of S determinant of S is 2. So it's invertible matrix. So you can invert it.
+
+532
+01:02:10.650 --> 01:02:21.929
+Umesh Vaidya:  and then you have  even of Tau to be equal to u one of tau minus y 2 of tau.
+
+533
+01:02:22.520 --> 01:02:30.510
+Umesh Vaidya: So you see, the feedback loop is designed like this. So this is positive. This is positive. but this is negative. even is
+
+534
+01:02:30.690 --> 01:02:36.770
+Umesh Vaidya: even, is y 2 minus sorry even is U, one minus y
+
+535
+01:02:37.210 --> 01:02:39.010
+Umesh Vaidya: even is your minus white
+
+536
+01:02:39.060 --> 01:02:48.480
+Umesh Vaidya: and taw is, I'm just carrying Tau everywhere. Just to note, denote that these are all truncated signals. Okay, if you want to ignore, you can ignore them. But tow is
+
+537
+01:02:48.620 --> 01:02:52.589
+Umesh Vaidya: put everywhere because we are dealing with the extended Lp spaces
+
+538
+01:02:52.850 --> 01:02:55.530
+Umesh Vaidya: because we're talking about now. These are all truncated signals.
+
+539
+01:02:56.170 --> 01:03:03.820
+Umesh Vaidya:  and similarly, what is e 2 of tau e 2 of tau. Here is y plus u.
+
+540
+01:03:03.870 --> 01:03:05.480
+Umesh Vaidya: you buy one plus you.
+
+541
+01:03:05.670 --> 01:03:08.649
+Umesh Vaidya: It is y one off top plus.
+
+542
+01:03:08.910 --> 01:03:13.280
+Umesh Vaidya: and you do of them. Okay.
+
+543
+01:03:14.620 --> 01:03:20.449
+Umesh Vaidya: now, what is y 2 of top you and oft what is y 2 of the y 2 of toy is nothing but
+
+544
+01:03:22.450 --> 01:03:29.769
+Umesh Vaidya: y 2 of toy is nothing but h 2 times E. 2 of toll is H. 2
+
+545
+01:03:30.410 --> 01:03:31.479
+Umesh Vaidya: e. 2.
+
+546
+01:03:32.800 --> 01:03:38.769
+Umesh Vaidya: Similarly, this is what is y one of Tau? It is y one is h, one e, one
+
+547
+01:03:39.120 --> 01:03:41.370
+Umesh Vaidya: tall plus you do off top.
+
+548
+01:03:44.120 --> 01:03:45.850
+Umesh Vaidya: Okay, so this we know.
+
+549
+01:03:47.800 --> 01:03:52.200
+Umesh Vaidya: And hence, again, using the triangle inequality. We can write this as
+
+550
+01:03:53.060 --> 01:03:58.729
+Umesh Vaidya: we can write this, as even off tow is less than equal to you, and off tar
+
+551
+01:03:58.900 --> 01:03:59.710
+Umesh Vaidya: plus
+
+552
+01:04:01.560 --> 01:04:03.840
+Umesh Vaidya: H. 2 E. 2.
+
+553
+01:04:04.020 --> 01:04:04.910
+Umesh Vaidya: Star.
+
+554
+01:04:06.410 --> 01:04:07.140
+Umesh Vaidya: Okay.
+
+555
+01:04:07.500 --> 01:04:12.090
+Umesh Vaidya: Now, what is H. 2 of talk that we know
+
+556
+01:04:13.790 --> 01:04:22.229
+Umesh Vaidya: is basically why too often right, which is less than equal. Gamma, 2 e. 2 plus beta 2. So this is less than equal to
+
+557
+01:04:22.270 --> 01:04:32.050
+Umesh Vaidya: u, one of the plus gamma, 2  e, 2 of tom
+
+558
+01:04:33.710 --> 01:04:34.570
+Umesh Vaidya: plus
+
+559
+01:04:35.860 --> 01:04:36.990
+Umesh Vaidya: vitamin.
+
+560
+01:04:39.320 --> 01:04:44.900
+Umesh Vaidya: Right? Similarly. E. 2 of tau is less than equal to
+
+561
+01:04:46.150 --> 01:04:48.810
+Umesh Vaidya: H. One, even off the
+
+562
+01:04:50.040 --> 01:04:50.890
+Umesh Vaidya: les
+
+563
+01:04:51.140 --> 01:04:55.979
+Umesh Vaidya: off top, which is less than equal to what is h one e, one is beta one
+
+564
+01:04:56.520 --> 01:05:00.679
+Umesh Vaidya:  sorry gamma, one
+
+565
+01:05:06.630 --> 01:05:10.170
+Umesh Vaidya: gamma, one e, one of da
+
+566
+01:05:11.270 --> 01:05:14.819
+Umesh Vaidya: plus beta plus u 2 off top.
+
+567
+01:05:15.650 --> 01:05:16.340
+Umesh Vaidya: Right?
+
+568
+01:05:30.730 --> 01:05:36.820
+Umesh Vaidya: Okay. So we have at the end of this less than equal to this, this, less than equal to this.
+
+569
+01:05:53.950 --> 01:06:06.790
+Umesh Vaidya: Okay, now, we can either substitute this in this or this in this right, we can substitute this in this, or we can substitute this in this for the even of top to get. See what you get. So let's do the the even of those. So let's just substitute from here to here.
+
+570
+01:06:06.840 --> 01:06:10.620
+Umesh Vaidya: So I get what I get. I get even after less than equal to
+
+571
+01:06:10.930 --> 01:06:12.540
+Umesh Vaidya: you, and offta
+
+572
+01:06:12.850 --> 01:06:17.729
+Umesh Vaidya: plus gamma. 2. What is e 2 of Tau? I can use the second equation. I want to get rid of the one
+
+573
+01:06:20.100 --> 01:06:22.970
+Umesh Vaidya: gamma, one even of the
+
+574
+01:06:23.970 --> 01:06:26.710
+Umesh Vaidya: plus beta one plus u 2 of top
+
+575
+01:06:28.180 --> 01:06:29.269
+Umesh Vaidya: plus beta 2.
+
+576
+01:06:30.870 --> 01:06:31.610
+Umesh Vaidya: Right?
+
+577
+01:06:33.320 --> 01:06:36.419
+Umesh Vaidya: So this is this becomes equal to
+
+578
+01:06:36.730 --> 01:06:38.370
+Umesh Vaidya: you. Went off
+
+579
+01:06:38.590 --> 01:06:41.610
+Umesh Vaidya: plus gamma to u 2 of to
+
+580
+01:06:42.130 --> 01:06:44.680
+Umesh Vaidya: plus a
+
+581
+01:06:45.520 --> 01:06:53.250
+Umesh Vaidya: gamma, 2 beta one plus beta 2 plus gamma, one gamma 2 times even off the
+
+582
+01:07:01.890 --> 01:07:02.650
+Umesh Vaidya: right.
+
+583
+01:07:07.060 --> 01:07:11.780
+Umesh Vaidya: Now you can pull this on this side you get even of the
+
+584
+01:07:12.030 --> 01:07:17.259
+Umesh Vaidya: one minus gamma, one gamma, 2 less than equal to u one tau
+
+585
+01:07:17.360 --> 01:07:18.849
+Umesh Vaidya: plus gamma, 2
+
+586
+01:07:18.970 --> 01:07:23.809
+Umesh Vaidya: U. 2 of the plus gamma, 2 beta, one plus beta 2.
+
+587
+01:07:33.540 --> 01:07:35.480
+Umesh Vaidya: Okay. Now you see
+
+588
+01:07:38.240 --> 01:07:42.310
+Umesh Vaidya: that even offal is less than equal to
+
+589
+01:07:43.620 --> 01:07:45.130
+Umesh Vaidya: you and oftal
+
+590
+01:07:45.360 --> 01:07:48.089
+Umesh Vaidya: plus gamma to u 2 of top
+
+591
+01:07:48.550 --> 01:07:54.919
+Umesh Vaidya: plus gamma, 2 beta, one plus beta, 2 divided by one minus gamma, one gamma, 2. So if
+
+592
+01:07:55.120 --> 01:07:59.230
+Umesh Vaidya: gamma, one gamma, 2 is less than one, then this is positive.
+
+593
+01:08:03.100 --> 01:08:05.460
+Umesh Vaidya: Similarly with the same. If you do this.
+
+594
+01:08:05.550 --> 01:08:11.829
+Umesh Vaidya: do the substitution the other way around, you'll get E. 2 of tall, less than equal to U. 2 of Tom.
+
+595
+01:08:11.850 --> 01:08:15.390
+Umesh Vaidya: plus gamma. One. You one ofdar
+
+596
+01:08:15.490 --> 01:08:20.109
+Umesh Vaidya: plus gamma, one beta 2 plus beta, one divided by
+
+597
+01:08:21.710 --> 01:08:23.500
+Umesh Vaidya: one minus gamma, one gamma.
+
+598
+01:08:26.990 --> 01:08:27.689
+Umesh Vaidya: Okay.
+
+599
+01:08:54.510 --> 01:09:05.259
+Umesh Vaidya: okay, so that's that's how you show that this is this gamma times gamma, to less than one will lead to a a finite even of all Youtube after.
+
+600
+01:09:05.450 --> 01:09:16.050
+Umesh Vaidya: And now, what is your you want? Ultimately you want to write relation between you want to find the L to gain between you and y, and that's easy, because what is UYY is less than equal to
+
+601
+01:09:17.700 --> 01:09:24.469
+Umesh Vaidya:  c one e of tau plus c 2
+
+602
+01:09:24.600 --> 01:09:27.270
+Umesh Vaidya:  u of Da.
+
+603
+01:09:28.590 --> 01:09:29.350
+Umesh Vaidya: okay.
+
+604
+01:09:34.060 --> 01:09:35.810
+Umesh Vaidya: and that is coming from
+
+605
+01:09:36.819 --> 01:09:38.280
+Umesh Vaidya: that is coming from here.
+
+606
+01:09:40.170 --> 01:09:43.689
+Umesh Vaidya: C, one and C 2, which are norm of S inverse.
+
+607
+01:09:43.729 --> 01:09:46.930
+Umesh Vaidya: And then this is less than equal to
+
+608
+01:09:47.990 --> 01:09:52.600
+Umesh Vaidya: c, 2 u of the plus. Now
+
+609
+01:09:52.810 --> 01:09:55.940
+Umesh Vaidya: c, one, you can actually
+
+610
+01:09:56.320 --> 01:09:59.459
+Umesh Vaidya: less than equal to even after plus
+
+611
+01:09:59.550 --> 01:10:02.900
+Umesh Vaidya: e, 2 of the. and because this
+
+612
+01:10:02.940 --> 01:10:06.139
+Umesh Vaidya: can be bounded by this, and then you plug these
+
+613
+01:10:07.440 --> 01:10:08.590
+Umesh Vaidya: in this
+
+614
+01:10:10.060 --> 01:10:16.059
+Umesh Vaidya: to get some expression so ultimately at the end. you get
+
+615
+01:10:16.340 --> 01:10:20.789
+Umesh Vaidya: y less than equal to some constant C of u
+
+616
+01:10:21.850 --> 01:10:23.369
+Umesh Vaidya: plus some constant
+
+617
+01:10:24.520 --> 01:10:26.509
+Umesh Vaidya: beta per c.
+
+618
+01:10:27.110 --> 01:10:32.239
+Umesh Vaidya: because once you do the substitution, you get rid of all the the intermittent signals
+
+619
+01:10:32.320 --> 01:10:39.359
+Umesh Vaidya: where C is a function of C, one c. 2. Gamma, one gamma, 2 beta, one beta, 2.
+
+620
+01:10:41.040 --> 01:10:44.079
+Umesh Vaidya: Okay. so that will be the overall gain.
+
+621
+01:10:44.940 --> 01:10:52.739
+Umesh Vaidya: which will be a function of all these different constants. The point is that the feedback interconnection will be stable because this condition is satisfied.
+
+622
+01:10:53.330 --> 01:10:59.869
+Umesh Vaidya: Okay, because this condition is satisfied. This, even an actually will be a finite quantity.
+
+623
+01:11:00.190 --> 01:11:11.950
+Umesh Vaidya: And and then you can use them to find the actual game of system. Yeah, so that's how this small game theorem actually works so small. Theorem is one of the important theorems which is
+
+624
+01:11:12.090 --> 01:11:15.250
+Umesh Vaidya: actually use instability of feedback interconnection.
+
+625
+01:11:21.660 --> 01:11:24.199
+Umesh Vaidya: You can extend the assist now to multiple agents.
+
+626
+01:11:25.370 --> 01:11:28.860
+basically like, it doesn't matter. Utility question.
+
+627
+01:11:31.490 --> 01:11:36.310
+Umesh Vaidya:  anything less than 2. It depends.
+
+628
+01:11:36.750 --> 01:11:42.290
+Umesh Vaidya: Yeah. It depends upon how you define the system. Right? So even if you have, let's say,
+
+629
+01:11:42.480 --> 01:11:46.900
+Umesh Vaidya: a single system. Right? Let's say, if you have a have a single system.
+
+630
+01:11:47.120 --> 01:11:55.239
+Umesh Vaidya: X, one dot equals x 2 x 2 dot equals x 2 plus
+
+631
+01:11:55.530 --> 01:12:01.579
+Umesh Vaidya: G of, or some something like x 2 squared plus x one. You can write this as actually input output system.
+
+632
+01:12:03.580 --> 01:12:09.080
+Umesh Vaidya: You can write this as a improbable system. because you can think of x one x 2 s. 2, separate system
+
+633
+01:12:09.420 --> 01:12:18.739
+Umesh Vaidya: x, 2 is the auction of the second system. And but it is input to the first system, and next one is the output of the first system and feed the second system
+
+634
+01:12:26.610 --> 01:12:30.420
+Umesh Vaidya: I or down a little bit like. I guess
+
+635
+01:12:31.250 --> 01:12:37.150
+Umesh Vaidya: in theory it makes sense that gamma one demonstration be less than one. But and they have rated like.
+
+636
+01:12:37.300 --> 01:12:39.679
+Umesh Vaidya: I'm thinking, what if they have on Gamma 2.
+
+637
+01:12:39.860 --> 01:12:42.759
+Umesh Vaidya: Their product is like point 9 9 9 9?
+
+638
+01:12:48.100 --> 01:12:54.120
+Umesh Vaidya: It will be very large, will be very large, right? So what will mean that the gain is in gain is very large.
+
+639
+01:12:54.420 --> 01:12:58.910
+Umesh Vaidya: so it's it could be very sensitive to the
+
+640
+01:12:58.970 --> 01:13:00.280
+Umesh Vaidya: to some disturbance.
+
+641
+01:13:01.230 --> 01:13:09.419
+Umesh Vaidya: So if there's some unmodeled stuff in me that could actually cause. So this gain actually directly connects to the robustness margin, margin for robustness.
+
+642
+01:13:10.290 --> 01:13:12.510
+Umesh Vaidya: so much smaller you gain you have.
+
+643
+01:13:12.650 --> 01:13:16.049
+Umesh Vaidya: But let's say, Gamelan, and damage to our greater than one.
+
+644
+01:13:16.750 --> 01:13:18.229
+That's just amazing.
+
+645
+01:13:18.930 --> 01:13:23.649
+Umesh Vaidya: Yes, that means I mean, you cannot even define this even after I wrote down.
+
+646
+01:13:24.260 --> 01:13:27.569
+Umesh Vaidya: you cannot define that, because it's it's negative.
+
+647
+01:13:28.140 --> 01:13:32.890
+Umesh Vaidya: So you're going to write that expression. I need to have Gamma Gamma to less than one.
+
+648
+01:13:34.860 --> 01:13:36.230
+Umesh Vaidya: And
+
+649
+01:13:36.860 --> 01:13:45.389
+Umesh Vaidya: yeah. So what it means is that and and we'll see that right? It is possible. Let's say you have gamma one, which is point one, and gamma 2, which is 2.
+
+650
+01:13:46.050 --> 01:13:50.739
+Umesh Vaidya: So you have one system, which is, have a very high gain, and other system, which has very low gain.
+
+651
+01:13:50.880 --> 01:13:58.720
+Umesh Vaidya: Product is still less than one. Right? So you can actually use this sort of tool sort of compensate for for lack of.
+
+652
+01:13:59.270 --> 01:14:00.959
+Umesh Vaidya: so to say, I mean
+
+653
+01:14:01.350 --> 01:14:06.430
+Umesh Vaidya: gain larger than one doesn't mean that it's unstable. It just didn't mean that. Yeah, it's gain is larger than one.
+
+654
+01:14:06.510 --> 01:14:15.740
+Umesh Vaidya: But in the context of feedback, you can actually compensate for lack of gain in one with the lack of more stability in one. Right?
+
+655
+01:14:16.140 --> 01:14:26.989
+Umesh Vaidya: So so things of that sort. And yeah. So next next thing, when I talk about this this passivity, so I want to talk about this passivity
+
+656
+01:14:27.200 --> 01:14:30.869
+Umesh Vaidya: stuff which actually kind of kind of interesting.
+
+657
+01:14:30.960 --> 01:14:32.290
+Umesh Vaidya: It's
+
+658
+01:14:32.460 --> 01:14:44.070
+Umesh Vaidya: it. It will have some of these elements as well, the feedback interaction, and so on. But there actually will see that you could actually.  yeah.
+
+659
+01:14:44.350 --> 01:14:48.780
+Umesh Vaidya: compensate for the lack of stability of one with the lack of with the instability for the other one.
+
+660
+01:14:49.640 --> 01:14:56.599
+Umesh Vaidya: So you could have feedback interconnection of those systems where one is stable, other is unstable. But still the feedback interconnection could be stable.
+
+661
+01:14:58.980 --> 01:15:01.799
+Umesh Vaidya: So yeah, we'll talk about that next time.
+
+662
+01:15:02.670 --> 01:15:04.639
+Umesh Vaidya: Okay, so that's all I have.
+
+663
+01:15:05.940 --> 01:15:12.550
+Umesh Vaidya: So you're saying, basically the problem with it being because they'll be norm of any bench.
+
+664
+01:15:14.090 --> 01:15:17.390
+Umesh Vaidya:  yeah, I mean, the gain cannot be negative.
+
+665
+01:15:17.820 --> 01:15:19.320
+Umesh Vaidya: because again, right
+
+666
+01:15:19.590 --> 01:15:21.809
+Umesh Vaidya: like like. If you go down
+
+667
+01:15:24.530 --> 01:15:31.589
+Umesh Vaidya: so like right there, he would say. the normally one of the less, and all that stuff
+
+668
+01:15:31.770 --> 01:15:44.550
+Umesh Vaidya: gamble line damage through with the third one playing, or let's just say there are 2. No, no, no, don't turn. Write down denominator. because then this there is amplification. Have you studied oscillators
+
+669
+01:15:45.110 --> 01:15:50.380
+Umesh Vaidya: like like oscillator systems like the the signal is going back and forth right?
+
+670
+01:15:50.400 --> 01:15:55.249
+Umesh Vaidya: So when I say that is gamma, one gamma, 2 is bigger than one.
+
+671
+01:15:55.330 --> 01:15:59.759
+Umesh Vaidya: This inequality doesn't make sense, you see, even tall is less than
+
+672
+01:16:00.070 --> 01:16:07.619
+Umesh Vaidya: 2 times, even though, does that make sense? Yeah. So that's
+
+673
+01:16:07.780 --> 01:16:17.120
+Umesh Vaidya: yes, mathematically invalid. But also when you kind of physically, the way it makes sense is that loop signal is going around the loop right?
+
+674
+01:16:17.400 --> 01:16:21.580
+Umesh Vaidya: So if the gain is like, so, gamma, one times. Gamma, 2 is the.
+
+675
+01:16:22.290 --> 01:16:31.919
+Umesh Vaidya: So yeah. So this is basically the yes. Yes. So then the so this is, if downtown is not less than one. This inequality is.
+
+676
+01:16:32.240 --> 01:16:33.820
+Umesh Vaidya: is Bs correct?
+
+677
+01:16:33.890 --> 01:16:38.039
+Umesh Vaidya: Okay, yeah. The intuition is, I just wasn't fully getting
+
+678
+01:16:38.790 --> 01:16:39.530
+Umesh Vaidya: okay.
+
+679
+01:16:46.190 --> 01:16:48.110
+Olamide Akinyele: Professor, yes.
+
+680
+01:16:48.350 --> 01:17:10.740
+Olamide Akinyele: Yeah. When are you going to upload this video? Because I would love to watch the video again so that I can prepare for next last to ask some questions. I think I need to. I can. I can. I have recorded these videos, put them. Maybe I could record all the videos that we can look at it later. Okay, sir, okay, just remind me when to start, the class begins.
+
+681
+01:17:10.930 --> 01:17:12.110
+Olamide Akinyele: Focus on yeah.
+
+682
+01:17:13.350 --> 01:17:14.389
+Olamide Akinyele: the hangars are
+
+683
+01:17:24.980 --> 01:17:25.730
+Umesh Vaidya: what happened
+
+684
+01:18:01.070 --> 01:18:05.920
+Umesh Vaidya: for for that like density. So what kind of thing were you.
+

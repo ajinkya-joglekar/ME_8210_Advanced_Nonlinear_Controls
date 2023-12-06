@@ -1,0 +1,2482 @@
+WEBVTT
+
+1
+00:00:13.550 --> 00:00:14.400
+Umesh Vaidya: Okay.
+
+2
+00:00:16.160 --> 00:00:17.690
+Umesh Vaidya: okay, so
+
+3
+00:00:17.800 --> 00:00:23.619
+Umesh Vaidya: yeah, so that's the definition. Now, the question is, how do you actually check this? How do you check this out?
+
+4
+00:00:25.650 --> 00:00:29.190
+Umesh Vaidya: How do you check this? Definition of subjects? And that's where
+
+5
+00:00:29.590 --> 00:00:30.770
+Umesh Vaidya: a
+
+6
+00:00:31.820 --> 00:00:35.969
+Umesh Vaidya: this thing comes in. So you have extortable F of X,
+
+7
+00:00:37.740 --> 00:00:43.710
+then X equals. 0 is called almost everywhere. So ae is a shot, for almost everywhere.
+
+8
+00:00:46.470 --> 00:00:47.590
+Umesh Vaidya: everywhere.
+
+9
+00:00:48.680 --> 00:00:49.720
+Umesh Vaidya: Statement.
+
+10
+00:00:51.160 --> 00:00:56.519
+Umesh Vaidya: how do you verify this? Right? So how do we verify the the layout possibility.
+
+11
+00:00:57.930 --> 00:01:00.829
+Umesh Vaidya: So the appliability we verify data as
+
+12
+00:01:04.980 --> 00:01:09.549
+Umesh Vaidya:  B, we have the function such that
+
+13
+00:01:09.880 --> 00:01:13.350
+Umesh Vaidya: F dot del V is less than 0 right?
+
+14
+00:01:13.630 --> 00:01:16.570
+Umesh Vaidya: That's the because this is nothing but radar
+
+15
+00:01:17.100 --> 00:01:23.990
+Umesh Vaidya: and f dot del V. So what is F not Delvy? I mean, this is, I'm I'm the reason I'm using this notation because
+
+16
+00:01:24.100 --> 00:01:31.959
+Umesh Vaidya: the condition was that v dot, which is v.is partial v partial XF of x. You can write this as f dot, then V,
+
+17
+00:01:31.990 --> 00:01:45.819
+Umesh Vaidya: so dot dot. Here is a dot product. Del V is the the gradient and F is the vector right? So it's the inner product of this 2 vectors the grain of V and the or other dot product not in a block here, because you are just a
+
+18
+00:01:46.070 --> 00:01:48.339
+Umesh Vaidya: on on a fine dimension.
+
+19
+00:01:48.460 --> 00:01:52.929
+Umesh Vaidya: So the Tel del V is the vector your family visit notation del V,
+
+20
+00:01:53.310 --> 00:01:54.790
+Umesh Vaidya: gradient of V,
+
+21
+00:01:54.940 --> 00:02:01.410
+Umesh Vaidya: right? And then F is another. Vector so you're taking an inner product of this dot product of this 2, vector which is what v.is right?
+
+22
+00:02:01.780 --> 00:02:04.540
+Umesh Vaidya: So there are different way of writing. This was the condition right
+
+23
+00:02:04.900 --> 00:02:12.069
+Umesh Vaidya: now, how do you actually verify this notion of stability? Okay, so the way you verify this is
+
+24
+00:02:12.470 --> 00:02:15.080
+Umesh Vaidya: is through a function called a density function.
+
+25
+00:03:28.740 --> 00:03:37.099
+Umesh Vaidya: So how do you verify? This is called density function, that the. So we'll use the density function for so this is called a density function.
+
+26
+00:03:37.990 --> 00:03:44.380
+Umesh Vaidya: And I'll tell you what's the physical intuition behind this is, and how these 2 are related. So
+
+27
+00:03:44.510 --> 00:03:51.460
+Umesh Vaidya: let me just say that that the origin X equal to 0 is almost
+
+28
+00:03:51.900 --> 00:03:53.370
+Umesh Vaidya: everywhere
+
+29
+00:03:54.910 --> 00:03:56.300
+Umesh Vaidya: stable.
+
+30
+00:03:56.600 --> 00:03:58.360
+Umesh Vaidya: If the
+
+31
+00:03:59.080 --> 00:04:00.100
+Umesh Vaidya: exist
+
+32
+00:04:01.260 --> 00:04:03.110
+Umesh Vaidya: density function.
+
+33
+00:04:06.460 --> 00:04:09.320
+Umesh Vaidya: the rural facts such that
+
+34
+00:04:11.260 --> 00:04:19.649
+Umesh Vaidya: the rule of X is positive row of X is indigenous.
+
+35
+00:04:21.550 --> 00:04:29.070
+Umesh Vaidya: What is mean integrable. That means that if you take row of X integrate it on Rn minus
+
+36
+00:04:29.210 --> 00:04:31.879
+Umesh Vaidya: origin. So you take away the origin.
+
+37
+00:04:33.180 --> 00:04:36.679
+Umesh Vaidya: Okay, so and then you integrate it. And this is integrated.
+
+38
+00:04:37.110 --> 00:04:38.890
+Umesh Vaidya: It's an integrable function
+
+39
+00:04:38.950 --> 00:04:41.130
+Umesh Vaidya: when you take out the origin.
+
+40
+00:04:41.180 --> 00:04:45.809
+Umesh Vaidya: Okay, so you are integrating everywhere except on the origin. So this means the integral is fine. Right?
+
+41
+00:04:46.820 --> 00:04:47.580
+Umesh Vaidya: Okay?
+
+42
+00:04:48.400 --> 00:04:59.810
+Umesh Vaidya: So just like we say that oh, V should be what we had a condition saying that we should be positive we should be 0 at the origin, we should be positive everywhere, and we should be continuously differentiable. Right?
+
+43
+00:05:00.020 --> 00:05:12.700
+Umesh Vaidya: Billyopner function. Similarly, now we are saying that pro has to be positive instead of continuously differentiable. We are saying that row has to be integrable function and and
+
+44
+00:05:13.220 --> 00:05:18.270
+Umesh Vaidya: and and we don't have a requirement. That role should be 0 at 0. In fact, it's other way around.
+
+45
+00:05:18.320 --> 00:05:19.420
+Umesh Vaidya: Guys show you.
+
+46
+00:05:19.600 --> 00:05:25.769
+Umesh Vaidya: Only thing we require is that row should be integrable outside the origin. So if you take away the origin
+
+47
+00:05:26.120 --> 00:05:29.829
+Umesh Vaidya: and integrate this function over the entire space, it should be integrable function.
+
+48
+00:05:30.040 --> 00:05:33.389
+Umesh Vaidya: Okay, that means this integral should be finite.
+
+49
+00:05:34.450 --> 00:05:38.220
+Umesh Vaidya: Alright. So what is the parallel of this condition?
+
+50
+00:05:38.700 --> 00:05:49.699
+Umesh Vaidya: This is the condition. So what is this condition looks like in a density. It looks like the following. So I'm going to use this notation. The averages of F. Flow has to bigger than Zoom.
+
+51
+00:05:50.400 --> 00:05:52.280
+Umesh Vaidya: You know what a divergence of Fo is.
+
+52
+00:05:53.160 --> 00:06:03.840
+Umesh Vaidya: so damages of Afro is less scalar quantity, right? Because you're looking at damages. So now, if you, if you simplify this, what is this? Is Davis? Ifl is nothing but
+
+53
+00:06:03.900 --> 00:06:06.309
+Umesh Vaidya: a row times divergence of f
+
+54
+00:06:07.450 --> 00:06:12.280
+Umesh Vaidya: plus f times dot plot the average, and so forth.
+
+55
+00:06:16.150 --> 00:06:18.970
+Umesh Vaidya: So look at this quantity. This actually looks
+
+56
+00:06:21.960 --> 00:06:23.160
+Umesh Vaidya: similar to this
+
+57
+00:06:25.240 --> 00:06:26.000
+Umesh Vaidya: right.
+
+58
+00:06:28.100 --> 00:06:31.989
+Umesh Vaidya: except that now there's this more and more point.
+
+59
+00:06:39.220 --> 00:06:44.540
+Umesh Vaidya: So if this is bigger, this country is bigger than 0, and if these conditions are satisfied.
+
+60
+00:06:45.030 --> 00:06:46.959
+Umesh Vaidya: then origin is
+
+61
+00:06:47.180 --> 00:06:49.870
+Umesh Vaidya: almost at a risk level. Of course. Now
+
+62
+00:06:51.120 --> 00:06:52.970
+Umesh Vaidya: we're not going to do the proof for this.
+
+63
+00:06:54.330 --> 00:07:03.469
+Umesh Vaidya: but I'll try to give an intuition, or what what these 2 things are doing. So when you think of a layapa function, what do you? How do you actually, what is the physics of a layup function.
+
+64
+00:07:04.950 --> 00:07:11.099
+Umesh Vaidya: There's a map here which we just discuss, and we did the proof and things. But what's the physics?
+
+65
+00:07:13.550 --> 00:07:16.850
+Umesh Vaidya: You know, the applications is like a what kind of function.
+
+66
+00:07:17.040 --> 00:07:20.140
+Umesh Vaidya: Ms. Leiga. energy function. Right?
+
+67
+00:07:21.310 --> 00:07:22.330
+Umesh Vaidya: So
+
+68
+00:07:23.590 --> 00:07:27.770
+Umesh Vaidya: I mean, we typically reciprocally have the function to the energy of system.
+
+69
+00:07:27.870 --> 00:07:33.360
+Umesh Vaidya: So if the system is stable, that means energy is decreasing. Right v.is less than 0. That means energy is decreasing.
+
+70
+00:07:33.440 --> 00:07:36.410
+Umesh Vaidya: So Liapno function has the interpretation of the
+
+71
+00:07:36.550 --> 00:07:44.360
+Umesh Vaidya: of the energy of system, right where the energy is minimum at the equivalent point. And as you go away it actually increases right?
+
+72
+00:07:44.500 --> 00:07:50.179
+Umesh Vaidya: And if you're trying to do global stability. Then, as X goes to infinity, the energy should be in fire. Right? So that's the physical
+
+73
+00:07:50.300 --> 00:07:53.640
+Umesh Vaidya: significance of the the layout of the function.
+
+74
+00:07:53.940 --> 00:08:01.450
+Umesh Vaidya: Which is the energy, so that along a trajectory our system, the energy is continuously decreasing. If there existed, we have the function.
+
+75
+00:08:01.530 --> 00:08:13.080
+Umesh Vaidya: It's an energy you have no function like is like an energy like a function. Of course. For a system which is not mechanical, you cannot actually construct fine energy. So that's where it becomes more mathematical.
+
+76
+00:08:13.280 --> 00:08:25.909
+Umesh Vaidya: But if you have system which has a mechanical system which has a physical notion of kinetic energy potential energy, then the natural candidate fully up in the function is just take a sum of kinetic and potential energy, the total energy of system.
+
+77
+00:08:25.970 --> 00:08:27.080
+Umesh Vaidya: and then that
+
+78
+00:08:27.360 --> 00:08:30.709
+Umesh Vaidya: will give you some notion of, I mean
+
+79
+00:08:30.730 --> 00:08:48.369
+Umesh Vaidya: hopefully, that will be likely up and function right? Not always, but many times, actually, that that is what works as the apple function choice only up to option. Okay, now, what is this row is actually doing? What is the physical significance of row? Okay? Because it is not actually doing pointwise stability.
+
+80
+00:08:48.800 --> 00:08:56.490
+Umesh Vaidya: It is not doing point by stability. The the physical meaning of row is like a. it is a density.
+
+81
+00:08:57.130 --> 00:08:59.670
+Umesh Vaidya: right? But that's why it's called a density function. Okay?
+
+82
+00:08:59.840 --> 00:09:10.050
+Umesh Vaidya: So how do you? How do you understand? What do you mean by density? Okay, do you know, probably density. Have you heard the probability density functions.
+
+83
+00:09:11.200 --> 00:09:25.209
+Umesh Vaidya: The probability density function basically tells you. like, if there's a probability density function, it tells you, what is the probability of occurrence of a State is right. Have you done any course on probability?
+
+84
+00:09:26.740 --> 00:09:28.739
+Umesh Vaidya: Basic undergraduate course?
+
+85
+00:09:28.920 --> 00:09:31.189
+Umesh Vaidya: Right? So when you say
+
+86
+00:09:31.730 --> 00:09:41.120
+Umesh Vaidya:  if p of X. If P of X is a probability density function.
+
+87
+00:09:47.300 --> 00:09:51.370
+Umesh Vaidya: I'm just trying to actually build from where you
+
+88
+00:09:51.990 --> 00:09:57.439
+Umesh Vaidya: give you the physical significance of rho based on what you know. Right? So what does P of X is a probability. Density function means.
+
+89
+00:09:57.640 --> 00:10:00.150
+Umesh Vaidya: It means that if you want to know
+
+90
+00:10:00.190 --> 00:10:05.749
+Umesh Vaidya: what is the probability of occurrence of an event. Right? So let's say, what is the probability of
+
+91
+00:10:05.900 --> 00:10:09.510
+Umesh Vaidya: X belongs to some set. A. So X is a random, variable.
+
+92
+00:10:10.070 --> 00:10:12.939
+Umesh Vaidya: What is the probability that X belongs to some set? A.
+
+93
+00:10:13.180 --> 00:10:20.560
+Umesh Vaidya: If there is a probability, density function, then the way it is is that you do. P. Of X. Dx for a
+
+94
+00:10:21.550 --> 00:10:28.319
+Umesh Vaidya: okay, have you seen this thing? Right? So that's how you use a probability density function to associate probability
+
+95
+00:10:29.020 --> 00:10:36.590
+Umesh Vaidya: of an event. Random event occurring to lie in some set. A. Okay.
+
+96
+00:10:37.870 --> 00:10:39.090
+Umesh Vaidya: Okay.
+
+97
+00:10:39.270 --> 00:10:48.319
+Umesh Vaidya: So this density rho is also the same right? So this quantity, you know what this quantity is P. Of X. Dx integrating row a.
+
+98
+00:10:49.640 --> 00:10:52.900
+Umesh Vaidya: P is actually density. Okay.
+
+99
+00:10:54.370 --> 00:10:58.579
+Umesh Vaidya: now, when you take this density, density is positive. right probability. Density is always positive.
+
+100
+00:10:58.720 --> 00:11:03.639
+Umesh Vaidya: So whenever you integrate density or and set a what is that? Quantity is?
+
+101
+00:11:08.260 --> 00:11:09.040
+Umesh Vaidya: Huh?
+
+102
+00:11:09.910 --> 00:11:18.380
+Umesh Vaidya: So in the probability theory, that is basically a probability of the event right, but in mathematically that is nothing but the measure of the set a
+
+103
+00:11:19.790 --> 00:11:21.160
+Umesh Vaidya: which is given.
+
+104
+00:11:21.270 --> 00:11:27.029
+Umesh Vaidya: induced by the role. So whenever you have probably density, you can associate a measure. So you can say, Oh, this is.
+
+105
+00:11:27.080 --> 00:11:39.860
+Umesh Vaidya: you can say the mu of A is like a probability of an event, a which is basically a measure of a set. A Mu is a measure. Okay. So for example, if you take P of X to be the uniform measure.
+
+106
+00:11:40.610 --> 00:11:57.859
+Umesh Vaidya: then it. Basically, let's say, if P of X is a uniform measure on a line, then you're basically looking at a length of the line as the property right? So that's like a Levick measure, which is what I was telling you so length of a line is the Levick measure. But I could actually.
+
+107
+00:11:59.320 --> 00:12:06.709
+Umesh Vaidya: So let's say you have a minus one to one. Okay, la Lent. Now.
+
+108
+00:12:13.380 --> 00:12:15.970
+Umesh Vaidya: now, if you have a probability like this.
+
+109
+00:12:16.320 --> 00:12:18.959
+Umesh Vaidya: if you have, this is your P of x.
+
+110
+00:12:20.340 --> 00:12:22.009
+Umesh Vaidya: If this is a P of x.
+
+111
+00:12:22.590 --> 00:12:29.660
+Umesh Vaidya: and everything is happening within minus one and one. Okay, if this is a probability, what does mean that P of X integral minus one to one is
+
+112
+00:12:32.000 --> 00:12:39.280
+Umesh Vaidya: one right? Because this is normalized, right? It's normalized because the probability it's normalized right now
+
+113
+00:12:39.370 --> 00:12:43.920
+Umesh Vaidya: based on this. If I ask you. okay.
+
+114
+00:12:44.210 --> 00:12:45.590
+Umesh Vaidya: what is
+
+115
+00:12:46.170 --> 00:12:48.989
+Umesh Vaidya: is the event more likely to happen?
+
+116
+00:12:49.510 --> 00:12:53.709
+Umesh Vaidya: Because so if this is my set, a.
+
+117
+00:12:54.380 --> 00:13:02.640
+Umesh Vaidya: And this is my set a one. So even P of x, or A is larger than P of X
+
+118
+00:13:03.270 --> 00:13:05.990
+Umesh Vaidya: for a one. Right? So let's say, this is a
+
+119
+00:13:07.350 --> 00:13:11.190
+Umesh Vaidya: right. So because the the area covered, I mean
+
+120
+00:13:12.240 --> 00:13:14.250
+Umesh Vaidya: P of X, Dx
+
+121
+00:13:14.590 --> 00:13:18.330
+Umesh Vaidya: is basically area under the under this.
+
+122
+00:13:20.040 --> 00:13:23.680
+Umesh Vaidya: under the interval. Right? You see what I'm saying.
+
+123
+00:13:26.360 --> 00:13:27.240
+Umesh Vaidya: So.
+
+124
+00:13:28.420 --> 00:13:36.110
+Umesh Vaidya: while the length of this interval a and a one may be the same. but because it's a probability
+
+125
+00:13:36.530 --> 00:13:43.919
+Umesh Vaidya: the measure actually is different that makes sense right unlike Lebic. So if I look at a length, lens is like a lebic
+
+126
+00:13:44.500 --> 00:13:50.329
+Umesh Vaidya: length, are the same. But because there's a problem, because now I'm using a different way of measuring things.
+
+127
+00:13:50.760 --> 00:13:53.359
+Umesh Vaidya: Using this P of X, I'm getting a different measure.
+
+128
+00:13:53.980 --> 00:13:57.400
+Umesh Vaidya: you see. So this is how we had inducing a different measure.
+
+129
+00:13:59.140 --> 00:14:02.569
+Umesh Vaidya: Now, what is this? So this role also is a
+
+130
+00:14:02.760 --> 00:14:04.800
+Umesh Vaidya: row of X is a density function.
+
+131
+00:14:08.420 --> 00:14:11.010
+Umesh Vaidya: So row of X has the interpretation of a
+
+132
+00:14:11.230 --> 00:14:12.360
+Umesh Vaidya: a
+
+133
+00:14:13.060 --> 00:14:16.969
+Umesh Vaidya: densities that means that rho of XB, of x, or a
+
+134
+00:14:24.850 --> 00:14:31.049
+Umesh Vaidya: see v. Of x, as the interpretation of energy. Right? So if I if I take any point I can compute V of X at that point.
+
+135
+00:14:31.400 --> 00:14:47.249
+Umesh Vaidya: What that means. If V of X at that point is large, that means the energy at that point is large, right? And that means I've been. If you, if I compute V at 0, what is the what is the energy? 0? Because you're at the equilibrium point right? Because if he is a
+
+136
+00:14:47.450 --> 00:14:49.169
+Umesh Vaidya: has interpretation of the energy.
+
+137
+00:14:49.430 --> 00:14:52.259
+Umesh Vaidya: Okay, so V is defined on a point.
+
+138
+00:14:52.330 --> 00:14:55.890
+Umesh Vaidya: So any point I can define a energy right.
+
+139
+00:14:55.960 --> 00:15:11.510
+Umesh Vaidya: whereas the row is not defined on a point, because now we cannot deal with points. As I said, this is almost everywhere, so roe is not row is. you can find the value of rho at X, but the right way to look at the row is not on a point, but on a
+
+140
+00:15:13.370 --> 00:15:14.400
+Umesh Vaidya: on a second.
+
+141
+00:15:15.010 --> 00:15:17.160
+Umesh Vaidya: So this quantity
+
+142
+00:15:17.260 --> 00:15:18.280
+Umesh Vaidya: makes sense.
+
+143
+00:15:18.610 --> 00:15:22.909
+Umesh Vaidya: So what is the physical meaning of this quantity? So that's so given any set?
+
+144
+00:15:23.630 --> 00:15:28.039
+Umesh Vaidya: What is the integral of the row on that set. What is the physical meaning of that?
+
+145
+00:15:28.870 --> 00:15:41.909
+Umesh Vaidya: Just like? Given any point. we have a physical meaning of what is V at that point is, we at that point is energy right now. Similarly, for the row, it doesn't make sense. Talk about the value of row at a point.
+
+146
+00:15:42.160 --> 00:15:52.360
+Umesh Vaidya: you can compute it, but doesn't have any physical meaning. The physical meaning comes when you compute the value of rho on a second. Now, what is the value of rho on a sec. What is the physical meaning of that?
+
+147
+00:15:52.870 --> 00:15:53.560
+Okay.
+
+148
+00:15:54.150 --> 00:16:06.409
+Umesh Vaidya: so physical meaning of the value of the row on the set? And that's actually a measure. Because that's what I showed you. And this is like a measure integrating over a probability. Density function on the set is a measure on the set.
+
+149
+00:16:06.790 --> 00:16:11.719
+Umesh Vaidya: Now, this integrating row on any set is a measure of that set.
+
+150
+00:16:11.880 --> 00:16:14.759
+Umesh Vaidya: So this is like a me of a I can pick any row.
+
+151
+00:16:14.970 --> 00:16:17.389
+Umesh Vaidya: and that'll I can use it to define a measure.
+
+152
+00:16:17.780 --> 00:16:25.360
+Umesh Vaidya: A rho is positive. Now the physical meaning of this is the following. so imagine that us. The equivalent point is stable. Okay?
+
+153
+00:16:26.600 --> 00:16:35.450
+Umesh Vaidya: Now, you're taking a set of initial condition. the set of initial conditions. Let's say you take a set, a
+
+154
+00:16:36.050 --> 00:16:43.379
+Umesh Vaidya: the set of initial conditions are now, since the equilibrium point is stable, they are getting attracted to the fixed point, the equilibrium point. Right
+
+155
+00:16:43.790 --> 00:16:57.590
+Umesh Vaidya: now the set. We cannot now talk about individual trajectories, because this is like a, not a point. Wise definition. We can talk about stability, of a ensemble of initial condition, ensemble of initial condition, like a bunch of initial conditions.
+
+156
+00:16:57.670 --> 00:17:04.200
+Umesh Vaidya: which is basically like, a set. Okay. Now, the set of initial conditions will actually
+
+157
+00:17:04.890 --> 00:17:13.550
+Umesh Vaidya: not every point in the set of initial conditions. They go to the equilibrium point because it's almost everywhere. There may be 1 point. There may be a line in the set which may not go to this point.
+
+158
+00:17:13.970 --> 00:17:25.539
+Umesh Vaidya: but the set of initial conditions, the the measure of set of initial conditions which are not going to the equilibrium point is a 0 measure set. So when I look at the set convergence, almost everything actually converts to the weekly right
+
+159
+00:17:25.660 --> 00:17:29.490
+Umesh Vaidya: now, what happens is that if you take that set. And if you ask yourself, okay.
+
+160
+00:17:30.720 --> 00:17:32.619
+Umesh Vaidya: what is the? So
+
+161
+00:17:34.070 --> 00:17:40.339
+Umesh Vaidya: so let's take. Let's say this is the equivalent point, and then you start with a set? A okay.
+
+162
+00:17:40.700 --> 00:17:42.869
+Umesh Vaidya: Now, this said will actually sort of
+
+163
+00:17:43.280 --> 00:17:50.410
+Umesh Vaidya: kind of converge like this, right? Since I said, we cannot talk about any in real points. But you can only talk about the
+
+164
+00:17:50.560 --> 00:17:54.050
+Umesh Vaidya: ensembles are points. Okay?
+
+165
+00:17:55.180 --> 00:17:57.440
+Umesh Vaidya: Now pick any
+
+166
+00:17:58.530 --> 00:18:01.530
+Umesh Vaidya: any other second. let's call it as B.
+
+167
+00:18:01.670 --> 00:18:09.689
+Umesh Vaidya: Okay, and ask yourself, what is the amount of time the system trajectory is spending inside the setp. When you initialize
+
+168
+00:18:09.810 --> 00:18:12.500
+Umesh Vaidya: your initial condition all over the state space.
+
+169
+00:18:14.760 --> 00:18:15.819
+Umesh Vaidya: Does that make sense.
+
+170
+00:18:16.510 --> 00:18:23.630
+Umesh Vaidya: So let's use. Take initial condition all over state space like a uniform probability distribution, Lebic measure.
+
+171
+00:18:24.140 --> 00:18:38.230
+Umesh Vaidya: and then say, Okay, if I pick any arbitrary set. What is the amount of time? The system trajectory in that set are spending in that set before actually getting to the because everything is eventually going to declare point. None of the initial conditions are going or
+
+172
+00:18:38.260 --> 00:18:39.800
+Umesh Vaidya: are going to stay in the set.
+
+173
+00:18:40.060 --> 00:18:47.439
+Umesh Vaidya: Okay, they're going to spend some time, but eventually they go into leave. That set right. So what you're asking is given in a set.
+
+174
+00:18:47.840 --> 00:18:50.980
+Umesh Vaidya: What is the amount of time the system trajectory are spending in their sector.
+
+175
+00:18:51.480 --> 00:18:57.119
+Umesh Vaidya: So it is called occupancy. What is the occupancy of a system trajectory on any given set?
+
+176
+00:18:59.370 --> 00:19:04.919
+Umesh Vaidya: Okay, what is occupancy of a system trajectory on any given set. And that is precisely this.
+
+177
+00:19:08.390 --> 00:19:15.859
+Umesh Vaidya: If you have a role. you can compute the row on any set. and then that gives you a measure of that set B
+
+178
+00:19:16.190 --> 00:19:18.369
+Umesh Vaidya: as induced by the role
+
+179
+00:19:18.500 --> 00:19:20.260
+Umesh Vaidya: it's called an occupancy measure.
+
+180
+00:19:26.500 --> 00:19:28.449
+Umesh Vaidya: So this density function.
+
+181
+00:19:30.770 --> 00:19:32.350
+Umesh Vaidya: or the measure
+
+182
+00:19:45.290 --> 00:19:46.999
+Umesh Vaidya: as a physical
+
+183
+00:19:55.530 --> 00:19:57.950
+Umesh Vaidya: interpretation of the occupants.
+
+184
+00:20:04.350 --> 00:20:08.840
+Umesh Vaidya: so density function or the measure. So what is the measure of corresponding density function? This is the measure.
+
+185
+00:20:09.070 --> 00:20:10.929
+Umesh Vaidya: Okay, so what is the measure?
+
+186
+00:20:11.170 --> 00:20:12.609
+Umesh Vaidya: Measure is.
+
+187
+00:20:12.700 --> 00:20:21.160
+Umesh Vaidya: give me any set. I will give you a number positive number to the set. That's a measure of the set right, just like I said on real line.
+
+188
+00:20:21.200 --> 00:20:33.030
+Umesh Vaidya: If you give me a any, any interval on real line, I can take a length of the line. That's the measure, right? That's one measure. That's a Levick measure saying that. Oh, that's the length of that line. So that's
+
+189
+00:20:33.110 --> 00:20:34.869
+Umesh Vaidya: one of the way you are quantifying.
+
+190
+00:20:34.920 --> 00:20:38.670
+Umesh Vaidya: You are associating a number to a set which is the interval
+
+191
+00:20:38.830 --> 00:20:42.799
+Umesh Vaidya: right? But you can also say any number. It doesn't have to be a
+
+192
+00:20:43.030 --> 00:20:47.520
+Umesh Vaidya: the length of the set right? Just like here. I show you that
+
+193
+00:20:47.610 --> 00:20:50.510
+Umesh Vaidya: here we are associating a number to a set
+
+194
+00:20:50.660 --> 00:21:13.889
+Umesh Vaidya: which is given by P. Of X in terms of p. Of x. Right. So if probability is very high. We have a larger number to that set. If the probability is on that set is, the P of X is small on that set, then the the number on that set is small. So what it be is basically doing is that given and it is taking a input as a set and giving output as a number positive number on the set. That's what a measure is.
+
+195
+00:21:14.400 --> 00:21:26.149
+Umesh Vaidya: Okay. Now, in the almost every stability, this density function, which is a certificate right? Just like your fee, is a certificate of stability. This density is now certificate of stability. It's a weaker certificate of stability.
+
+196
+00:21:26.610 --> 00:21:32.150
+Umesh Vaidya: because if they register row. That means that the equivalent point is almost everywhere stable. That's a weaker motion of stability.
+
+197
+00:21:32.950 --> 00:21:40.469
+Umesh Vaidya: Now, the certificate has a physical meaning of occupancy. That means, if there exists a certificate like this, and if I use a certificate to compute
+
+198
+00:21:41.030 --> 00:21:42.420
+Umesh Vaidya: quantity like this
+
+199
+00:21:44.640 --> 00:21:49.980
+Umesh Vaidya: quantity like this for any B any set. BI can compute this on any set B, it telling you the measure
+
+200
+00:21:50.320 --> 00:21:54.699
+Umesh Vaidya: on the site. B. That means how much time the system trajectory are spending in that sector
+
+201
+00:21:54.940 --> 00:21:57.310
+Umesh Vaidya: before getting attracted to the credit card.
+
+202
+00:21:57.970 --> 00:21:59.800
+Umesh Vaidya: Yeah, so does that mean
+
+203
+00:21:59.830 --> 00:22:06.949
+Umesh Vaidya: point for points where it's not. Still. this, this is only defined on set.
+
+204
+00:22:08.020 --> 00:22:12.170
+Umesh Vaidya: So that's why it's if you take a point, it is not defined on a point.
+
+205
+00:22:12.490 --> 00:22:18.710
+Umesh Vaidya: Come again. It's not defined on that, because it's a 0 measure.
+
+206
+00:22:19.880 --> 00:22:24.110
+Umesh Vaidya: It's a 0 measure. That's where the 0 measure comes.
+
+207
+00:22:24.840 --> 00:22:30.279
+Umesh Vaidya: So if you take any line, even if the so let's say so, this is what it means.
+
+208
+00:22:31.970 --> 00:22:41.840
+Umesh Vaidya: So let's say you have a you have a function on a real line. There's there's a. This function is taking infinite value at a 1 point.
+
+209
+00:22:42.510 --> 00:22:45.350
+Umesh Vaidya: and it is, and it has some value.
+
+210
+00:22:45.890 --> 00:22:49.229
+Umesh Vaidya: What will be the integral of the function on that line?
+
+211
+00:22:52.500 --> 00:22:54.940
+Umesh Vaidya: It is taking infinite value at 1 point.
+
+212
+00:22:55.840 --> 00:23:02.739
+Umesh Vaidya: But it is taking, let's say, a finite value, and then nice function everywhere else. What will be the integral of the function?
+
+213
+00:23:22.170 --> 00:23:31.630
+Umesh Vaidya: So so there are different ways of actually defining integrals. Right? The way you we have done. So, yeah. So the integral in this case will not be affected by the what is happening at a single point.
+
+214
+00:23:32.030 --> 00:23:42.879
+Umesh Vaidya: Right? So, as I'm saying, if you have a function which is infinite on a line, and you're integrating that function on a 2D space. They what happens on a line doesn't really affect the the integral
+
+215
+00:23:43.190 --> 00:23:58.170
+Umesh Vaidya: because it's happening on a very small set right? And that actually comes when you actually do that, 2 different ways of actually doing integrals. So without getting into details. So it's called levee integral, that's called Raman integral. So what we have been taught in calculus is basically called Riemannian intake.
+
+216
+00:23:58.440 --> 00:24:07.629
+Umesh Vaidya: Okay, so yeah, so either what is happening on a point or a line doesn't really matter because it was 0 measure size. So when you do this, Dx was Dx's
+
+217
+00:24:08.280 --> 00:24:10.570
+Umesh Vaidya: Dx is basically the measure of the set.
+
+218
+00:24:12.130 --> 00:24:16.420
+Umesh Vaidya: So it is a measure of the set times, the value of the function on the set.
+
+219
+00:24:16.550 --> 00:24:21.999
+Umesh Vaidya: That's how you interpret. If the measure of set is 0, no matter what the value of the function is on this, it doesn't really matter.
+
+220
+00:24:24.140 --> 00:24:30.759
+Umesh Vaidya: Okay, so even if the value's infinite it, since the measure is 0, that just integrate to 0.
+
+221
+00:24:31.870 --> 00:24:32.550
+Umesh Vaidya: Okay.
+
+222
+00:24:33.190 --> 00:24:45.179
+Umesh Vaidya: and that that sort of way to think about this actually comes when you think about the integral from the Webec point, not from the Riman point of view. But anyway, I mean, that's that's little more technical. But
+
+223
+00:24:45.220 --> 00:24:46.579
+Umesh Vaidya: you get the point right
+
+224
+00:24:46.830 --> 00:24:49.729
+Umesh Vaidya: that whatever happens on a small measure set
+
+225
+00:24:49.820 --> 00:24:52.989
+Umesh Vaidya: didn't really affect the the value of the integral of the function.
+
+226
+00:24:53.290 --> 00:24:55.430
+Umesh Vaidya: the yield 0.
+
+227
+00:24:56.970 --> 00:24:58.360
+Umesh Vaidya: What l. 0
+
+228
+00:24:58.440 --> 00:25:04.739
+Umesh Vaidya: like, if the Dx represents the measure, and we take the points that are not stable
+
+229
+00:25:04.850 --> 00:25:07.000
+Umesh Vaidya: like whatever small subset that is.
+
+230
+00:25:07.030 --> 00:25:12.369
+Umesh Vaidya: And you're saying that all those of all those points the integral would evaluate 0. Right
+
+231
+00:25:12.720 --> 00:25:23.390
+Umesh Vaidya: so. But but I'm not. I row is not going to infinity. As you were saying, row is not going to infinite. What what I'm saying is that what happens on the on the 0 measure said, even if the trajectories are not converging
+
+232
+00:25:23.860 --> 00:25:30.890
+Umesh Vaidya: from that initial condition, so the equivalent point, you will tend to think that if I take that as my set initial set.
+
+233
+00:25:31.050 --> 00:25:32.879
+Umesh Vaidya: the occupancy will be infinite
+
+234
+00:25:33.030 --> 00:25:38.680
+Umesh Vaidya: on that side, right? But but since the set is measure 0, the row doesn't really get affected by it.
+
+235
+00:25:39.720 --> 00:25:41.679
+Umesh Vaidya: The role is not infinite on that.
+
+236
+00:25:41.830 --> 00:25:43.560
+We still can think about it.
+
+237
+00:25:44.540 --> 00:25:49.179
+Umesh Vaidya: We could still compute the value for it, because that. I think that's where this kind of
+
+238
+00:25:49.460 --> 00:25:53.760
+Umesh Vaidya: the it's a role is only defined in the measure sense.
+
+239
+00:25:54.190 --> 00:25:54.930
+Umesh Vaidya: Okay?
+
+240
+00:25:55.290 --> 00:25:57.819
+Umesh Vaidya: Yeah, you can.
+
+241
+00:25:57.830 --> 00:26:06.999
+Umesh Vaidya: So the way you compute the value of that on the set. Yeah, it'll really. You don't know how that you come, I mean, I tell you how to sort of compute this thing, do it computationally.
+
+242
+00:26:07.040 --> 00:26:10.749
+Umesh Vaidya: because when you do it computationally, this set doesn't really come into picture.
+
+243
+00:26:14.020 --> 00:26:15.430
+Umesh Vaidya: So, for example.
+
+244
+00:26:15.440 --> 00:26:18.970
+Umesh Vaidya:  I don't have actually worked it this out.
+
+245
+00:26:19.120 --> 00:26:28.509
+Umesh Vaidya: But we could actually try to consider. So this example we gave right X dot equals minus sign X. It'll be interesting to find what is the role for this is
+
+246
+00:26:38.870 --> 00:26:46.289
+Umesh Vaidya: so. Another thing which I want to say is that now, as you get closer to. So now let's take a let's take
+
+247
+00:26:47.600 --> 00:26:48.850
+Umesh Vaidya: So if I take a
+
+248
+00:26:49.060 --> 00:26:55.470
+Umesh Vaidya: so, as I said, if you take any set B any integrated row on the set B.
+
+249
+00:26:56.000 --> 00:27:03.410
+Umesh Vaidya: This gives you the occupancy on the set be right. That means that the tragic, how much time the system trajectory is spending on the set be right.
+
+250
+00:27:03.670 --> 00:27:05.600
+Umesh Vaidya: Now, what if you actually take a set
+
+251
+00:27:05.700 --> 00:27:11.040
+Umesh Vaidya: which is close to the which is close to this
+
+252
+00:27:11.210 --> 00:27:12.590
+Umesh Vaidya: equilibrium point.
+
+253
+00:27:14.950 --> 00:27:17.219
+Umesh Vaidya: where system critics will spend more time
+
+254
+00:27:18.240 --> 00:27:21.199
+Umesh Vaidya: in the set B or set, which is close to equilibrium.
+
+255
+00:27:25.050 --> 00:27:28.500
+Umesh Vaidya: closer one. Because everything is kind of funneled through the
+
+256
+00:27:29.290 --> 00:27:31.940
+Umesh Vaidya: close to the particular point. Right? So everything, I mean.
+
+257
+00:27:32.150 --> 00:27:32.820
+you.
+
+258
+00:27:33.230 --> 00:27:38.660
+Umesh Vaidya: System starting from here, may not spend time here, but then, as it clears closer, he has to sort of spend.
+
+259
+00:27:38.930 --> 00:27:44.529
+Umesh Vaidya: pass through the set, and because it's closer to the clear point. Right? So the because of that, the role.
+
+260
+00:27:45.040 --> 00:27:49.159
+Umesh Vaidya: if you look at the the shape of the row, so how do the shape of the V looks like
+
+261
+00:27:51.820 --> 00:27:59.320
+Umesh Vaidya: V, the energy function looks like it's like a bell shape, right? Which is basically saying that it's
+
+262
+00:28:01.850 --> 00:28:08.490
+Umesh Vaidya: right. It is, it is, it is minimum at the origin, and and it increases as go away right.
+
+263
+00:28:09.180 --> 00:28:12.999
+Umesh Vaidya: This density actually does exactly opposite.
+
+264
+00:28:13.900 --> 00:28:20.660
+Umesh Vaidya: because it's a measure of occupancy. The the amount of time. The system trying to be spending close to the origin is more
+
+265
+00:28:20.810 --> 00:28:24.730
+Umesh Vaidya: compared to the away at the origin. This has a similarity.
+
+266
+00:28:26.650 --> 00:28:28.950
+Umesh Vaidya: So it's kind of actually blowing up
+
+267
+00:28:30.910 --> 00:28:33.350
+Umesh Vaidya: it is. It is blowing up, because
+
+268
+00:28:33.460 --> 00:28:38.499
+Umesh Vaidya: as you get closer and closer, more time is spent around the around, the
+
+269
+00:28:39.200 --> 00:28:43.619
+Umesh Vaidya: trajectories close to the equipment in in the set which are close to equilibrium.
+
+270
+00:28:43.820 --> 00:28:44.510
+Umesh Vaidya: Okay?
+
+271
+00:28:45.520 --> 00:28:51.819
+Umesh Vaidya: So so that's the sort of opposite nature of this role is. So while the the fees
+
+272
+00:28:51.870 --> 00:28:54.639
+Umesh Vaidya: bellshare, which has minimum ad origin.
+
+273
+00:28:55.300 --> 00:29:01.209
+Umesh Vaidya: The row is actually has a maximum. It's actually infinite at the origin, because at the origin you're spending infinite time.
+
+274
+00:29:01.810 --> 00:29:11.059
+Umesh Vaidya: and because everything is eventually getting there. So at the origin you have, it blows up. So that's why, when you integrate this row, you have to take away those.
+
+275
+00:29:11.630 --> 00:29:14.519
+Umesh Vaidya: It is integrable everywhere except at the origin.
+
+276
+00:29:16.550 --> 00:29:24.740
+Umesh Vaidya: Okay, so that's the that's the physical interpretation of the row. And in fact, the row is actually much more physical if you think in terms of fluids.
+
+277
+00:29:26.070 --> 00:29:31.129
+Umesh Vaidya: So what happens? So yeah, let's say, if you have a sink, so think of the origin as a sink.
+
+278
+00:29:31.610 --> 00:29:35.360
+Umesh Vaidya: And if you have so and and think of the vector field as a fluid.
+
+279
+00:29:36.830 --> 00:29:38.229
+Umesh Vaidya: everything is kind of
+
+280
+00:29:38.930 --> 00:29:40.869
+Umesh Vaidya: the all. The
+
+281
+00:29:41.300 --> 00:29:44.490
+Umesh Vaidya: everything will go to the sink right eventually. Right
+
+282
+00:29:45.160 --> 00:29:49.350
+Umesh Vaidya: now put some die of initial condition or put some die in the fluid.
+
+283
+00:29:50.070 --> 00:29:51.089
+Umesh Vaidya: What had happened?
+
+284
+00:29:51.850 --> 00:29:54.089
+Umesh Vaidya: So die of a
+
+285
+00:29:54.450 --> 00:29:55.950
+Umesh Vaidya: is like initial set.
+
+286
+00:29:56.860 --> 00:29:59.609
+Umesh Vaidya: So that will actually sort of go
+
+287
+00:29:59.730 --> 00:30:03.829
+Umesh Vaidya: through the flow. And eventually that will settle at the Sync
+
+288
+00:30:04.840 --> 00:30:06.580
+Umesh Vaidya: right? So that's exactly what it's like.
+
+289
+00:30:06.650 --> 00:30:09.380
+Umesh Vaidya: So everything set is at the same.
+
+290
+00:30:09.450 --> 00:30:17.140
+Umesh Vaidya: And that's why you have most occupancy. So if you even if you look at this damages of Afro condition, that is basically like a fluid condition.
+
+291
+00:30:19.590 --> 00:30:20.630
+Umesh Vaidya: It's like A
+
+292
+00:30:22.110 --> 00:30:23.670
+Umesh Vaidya: is coming from the fluids.
+
+293
+00:30:23.820 --> 00:30:26.479
+Umesh Vaidya: Divergence of the velocity of the vector field
+
+294
+00:30:26.540 --> 00:30:28.089
+Umesh Vaidya: as measured to the group.
+
+295
+00:30:28.540 --> 00:30:32.159
+Umesh Vaidya: And it is bigger than 0. So why is it bigger than 0
+
+296
+00:30:32.820 --> 00:30:38.480
+Umesh Vaidya: if it whereas this v.is less than 0. What this is saying is that the v.is actually
+
+297
+00:30:40.940 --> 00:30:44.730
+Umesh Vaidya: so, what are the divergence of a vector field bigger than 0 means
+
+298
+00:30:46.870 --> 00:30:48.670
+this war is going.
+
+299
+00:30:49.410 --> 00:30:53.649
+Umesh Vaidya: It is, it means it's expanding. Right? It's expanding, it's moving up.
+
+300
+00:30:54.350 --> 00:30:55.060
+Umesh Vaidya: Okay?
+
+301
+00:30:57.300 --> 00:31:02.930
+Umesh Vaidya: So why? So what is, how do you sort of understand this damages bigger than 0 conditions? It means that.
+
+302
+00:31:03.320 --> 00:31:06.879
+Umesh Vaidya: So it's actually little opposite to the the.
+
+303
+00:31:07.040 --> 00:31:13.230
+Umesh Vaidya: It's exactly opposite to the Liab function. So when v.is less than 0, you mean that energy is decreasing. Right.
+
+304
+00:31:14.470 --> 00:31:19.650
+Umesh Vaidya: V dot less than 0 means that energy is decreasing when diverges or F flow is bigger than 0, it means that
+
+305
+00:31:21.590 --> 00:31:22.910
+Umesh Vaidya: things are expanding.
+
+306
+00:31:23.020 --> 00:31:26.869
+Umesh Vaidya: but this is only outside the the equilibrium point.
+
+307
+00:31:27.570 --> 00:31:34.519
+Umesh Vaidya: So what it basically so the liapl function is the condition of stability. whereas this is a condition of instability.
+
+308
+00:31:34.900 --> 00:31:46.500
+Umesh Vaidya: If you think about, because what it's saying is that that things are expanding. Okay, but it is expanding only outside. So what it is another way. So there are 2 different ways of saying that something is stable.
+
+309
+00:31:46.660 --> 00:31:50.669
+Umesh Vaidya: One thing you say, that that equilibrium point is stable, which is what Liabno is saying.
+
+310
+00:31:50.820 --> 00:31:54.659
+Umesh Vaidya: what this is saying is that, oh, equilibrium point is stable. But
+
+311
+00:31:55.020 --> 00:31:59.360
+Umesh Vaidya: instead of saying, equilibrium point is stable, it is saying that everything outside equilibrium point is unstable.
+
+312
+00:32:03.000 --> 00:32:10.780
+Umesh Vaidya: The average condition says that outside the equilibrium point everything is on state. So there's only 1 one place to go is to the equilibrium.
+
+313
+00:32:11.510 --> 00:32:16.309
+Umesh Vaidya: So that's why, when you check this condition it is only check everywhere except at those.
+
+314
+00:32:16.910 --> 00:32:20.569
+Umesh Vaidya: because that the origin this is doesn't make sense, because the row is in finite.
+
+315
+00:32:22.100 --> 00:32:25.670
+Umesh Vaidya: Right. So this is actually a dual way of looking at a similar problem.
+
+316
+00:32:26.380 --> 00:32:28.510
+Umesh Vaidya: Instead of saying that something is stable.
+
+317
+00:32:28.660 --> 00:32:36.790
+Umesh Vaidya: we are saying that we are trying to. Instead of verifying that equilibrium point is stable we are trying to verify is everything outside the equilibrium point one step
+
+318
+00:32:37.970 --> 00:32:39.379
+Umesh Vaidya: and they're onto the same.
+
+319
+00:32:43.280 --> 00:32:44.730
+Get instructed.
+
+320
+00:32:45.890 --> 00:32:57.400
+Umesh Vaidya: You can use it, because when you cannot construct, I'll tell you. It has some nice property which Theabno function does not have. So, as I said, you hardly use function to check stability.
+
+321
+00:32:58.280 --> 00:33:00.810
+Umesh Vaidya: The main advantage of the applicant function is to
+
+322
+00:33:02.390 --> 00:33:11.440
+Umesh Vaidya: control design. right? So main advantage of liabno function is for a synthesis problem. how do you usually app the function to do control design?
+
+323
+00:33:12.660 --> 00:33:18.879
+Umesh Vaidya: So now you can ask the same question in the density. Can I now use this to do control design
+
+324
+00:33:19.310 --> 00:33:23.019
+Umesh Vaidya: where I'm not interested in controlling each and every point.
+
+325
+00:33:23.170 --> 00:33:30.469
+Umesh Vaidya: But I'm okay with not controlling each and every point as long as it's the point which I miss is a measure 0 set. Right?
+
+326
+00:33:31.850 --> 00:33:35.039
+Umesh Vaidya: Then you can actually use this to control design.
+
+327
+00:33:35.080 --> 00:33:42.590
+Umesh Vaidya: And then it turns out that control design problem using this is actually a convex problem. Remember, what I said is that control design using the
+
+328
+00:33:42.600 --> 00:33:44.999
+Umesh Vaidya: the, the apple function is a non-funded problem.
+
+329
+00:33:45.410 --> 00:33:50.379
+Umesh Vaidya: I will show you now the control design using this is actually a very simple convex problem.
+
+330
+00:33:52.110 --> 00:33:53.800
+Umesh Vaidya: There is a catch there. But
+
+331
+00:33:55.950 --> 00:34:01.200
+Umesh Vaidya: I'll tell you what the catch is, but nonetheless the the it works nicely.
+
+332
+00:34:01.430 --> 00:34:02.100
+Okay.
+
+333
+00:34:03.180 --> 00:34:07.440
+Umesh Vaidya: So now control design. So how do you do control design?
+
+334
+00:34:09.440 --> 00:34:11.550
+Umesh Vaidya: So remember,
+
+335
+00:34:11.670 --> 00:34:14.140
+Umesh Vaidya: So you have X or equals. Let's say, F of x
+
+336
+00:34:14.510 --> 00:34:17.769
+Umesh Vaidya: plus G of XU control the fine.
+
+337
+00:34:17.969 --> 00:34:25.670
+Umesh Vaidya: I want to choose U equal to K of X feedback controller. Okay. now, the question is.
+
+338
+00:34:26.570 --> 00:34:29.560
+Umesh Vaidya: so once I use this, then this becomes it.
+
+339
+00:34:32.580 --> 00:34:34.289
+Umesh Vaidya: Let's call this an F of X
+
+340
+00:34:35.510 --> 00:34:40.070
+Umesh Vaidya: capital F of X, our feedback system. Right? There's no global system.
+
+341
+00:34:40.230 --> 00:34:45.290
+Umesh Vaidya: Now, how do I verify that this exodus, big F of X is almost everywhere stable.
+
+342
+00:34:48.800 --> 00:34:50.230
+Umesh Vaidya: By using this right?
+
+343
+00:34:52.570 --> 00:34:53.939
+Umesh Vaidya: By this condition, right.
+
+344
+00:34:55.060 --> 00:34:57.429
+Umesh Vaidya: I had to find a role such that
+
+345
+00:34:59.170 --> 00:35:00.510
+Umesh Vaidya: divergence of
+
+346
+00:35:00.740 --> 00:35:02.990
+Umesh Vaidya: F row is bigger than 0,
+
+347
+00:35:03.720 --> 00:35:04.470
+Umesh Vaidya: right?
+
+348
+00:35:08.480 --> 00:35:10.139
+Umesh Vaidya: Such that this is true
+
+349
+00:35:14.890 --> 00:35:15.650
+Umesh Vaidya: right?
+
+350
+00:35:18.230 --> 00:35:20.239
+Umesh Vaidya: You know what divergence of airflow is right.
+
+351
+00:35:21.040 --> 00:35:26.240
+Umesh Vaidya: So that was the flow is basically divergence of so partial f one rho
+
+352
+00:35:26.420 --> 00:35:28.820
+Umesh Vaidya: partial x, one plus partial.
+
+353
+00:35:29.000 --> 00:35:34.780
+Umesh Vaidya: F 2 rho partial x 2 dot dot dot plus partial FN row.
+
+354
+00:35:35.110 --> 00:35:36.670
+partial exit right
+
+355
+00:35:36.840 --> 00:35:40.490
+Umesh Vaidya: where your FA. Is. F one F 2
+
+356
+00:35:41.510 --> 00:35:42.350
+Umesh Vaidya: effing.
+
+357
+00:36:00.740 --> 00:36:01.500
+Umesh Vaidya: Okay.
+
+358
+00:36:02.820 --> 00:36:04.460
+Umesh Vaidya: But what is big? F,
+
+359
+00:36:05.160 --> 00:36:07.230
+Umesh Vaidya: what is big F big F is
+
+360
+00:36:08.040 --> 00:36:11.230
+Umesh Vaidya: little F, plus GK
+
+361
+00:36:11.640 --> 00:36:14.169
+Umesh Vaidya: row bigger than 0. What is this?
+
+362
+00:36:14.400 --> 00:36:20.179
+Umesh Vaidya: The averages of F rho plus GK rho bigger than 0. Right?
+
+363
+00:36:21.140 --> 00:36:23.880
+Umesh Vaidya: So what do you want to find here in this equation?
+
+364
+00:36:25.420 --> 00:36:28.199
+Umesh Vaidya: What are you going to find in this equation? What are unknowns?
+
+365
+00:36:31.180 --> 00:36:32.310
+Umesh Vaidya: Rowan?
+
+366
+00:36:32.430 --> 00:36:33.790
+Umesh Vaidya: Okay, right.
+
+367
+00:36:34.070 --> 00:36:35.799
+Umesh Vaidya: They look nice.
+
+368
+00:36:39.990 --> 00:36:41.770
+Umesh Vaidya: Remember the linear system.
+
+369
+00:36:41.960 --> 00:36:51.839
+Umesh Vaidya: What are the pro? We did this? We have no function for linear system. What does that? How did we handle that? Linear feedback control for linear system.
+
+370
+00:36:55.810 --> 00:36:58.750
+Umesh Vaidya: You we wrote the Lmi right. Remember that. Lmi.
+
+371
+00:36:59.380 --> 00:37:01.749
+Umesh Vaidya: So what is that we trick we use?
+
+372
+00:37:02.380 --> 00:37:04.500
+Umesh Vaidya: It was. To begin with, it was
+
+373
+00:37:04.840 --> 00:37:08.690
+Umesh Vaidya: not linear. It was not a linear right? What was it?
+
+374
+00:37:10.220 --> 00:37:18.999
+Umesh Vaidya: It's quadratic, right? Because the 2 things are multiplying. Do you see. can Rose multiply. So what are the trick we use there?
+
+375
+00:37:19.730 --> 00:37:21.100
+See? Okay.
+
+376
+00:37:21.240 --> 00:37:22.589
+Umesh Vaidya: so can you do that.
+
+377
+00:37:23.330 --> 00:37:27.170
+Umesh Vaidya: So now you do define new variable row bar
+
+378
+00:37:27.670 --> 00:37:28.889
+Umesh Vaidya: as Ko.
+
+379
+00:37:30.920 --> 00:37:35.779
+Umesh Vaidya: Okay. define a new variable roar as Ko. Now this becomes
+
+380
+00:37:36.350 --> 00:37:39.580
+Umesh Vaidya: f row plus G. Robart
+
+381
+00:37:43.060 --> 00:37:49.769
+Umesh Vaidya: row is positive. Remember that everything is functions here. We're always positive. So how does this look like
+
+382
+00:37:56.160 --> 00:37:57.840
+Umesh Vaidya: now? What are the variables.
+
+383
+00:38:00.610 --> 00:38:03.910
+Umesh Vaidya: robot and row? How do they? This looks like
+
+384
+00:38:09.690 --> 00:38:12.270
+Umesh Vaidya: can see. So all that
+
+385
+00:38:13.080 --> 00:38:15.370
+Umesh Vaidya: is leader in ruin robot. So
+
+386
+00:38:15.900 --> 00:38:17.450
+Umesh Vaidya: that's it. So it's convex.
+
+387
+00:38:19.890 --> 00:38:21.810
+Umesh Vaidya: Okay, the only catch is that
+
+388
+00:38:21.990 --> 00:38:24.469
+Umesh Vaidya: is actually infinite dimensional.
+
+389
+00:38:24.920 --> 00:38:30.449
+Umesh Vaidya: because it's all function of X right and X's. You have to check this for all Xs
+
+390
+00:38:30.900 --> 00:38:33.569
+Umesh Vaidya: right, it will check this for all x.
+
+391
+00:38:33.950 --> 00:38:42.959
+Umesh Vaidya: So that's where it's the infinite dimensional context, whereas in linear system. It was convex. It was a finite dimensional convex, because there was no X there. It was just matrices.
+
+392
+00:38:43.320 --> 00:38:47.280
+Umesh Vaidya: But this is, in fact, dimensional context. Nonetheless, it's convex.
+
+393
+00:38:48.500 --> 00:38:52.040
+Umesh Vaidya: it is convex, which is, was not the case with liable.
+
+394
+00:38:53.240 --> 00:38:57.710
+Umesh Vaidya: So you solve this, you you basically do a finite dimension approximation of this
+
+395
+00:38:59.720 --> 00:39:02.580
+Umesh Vaidya: by choosing some basis functions, and so on.
+
+396
+00:39:03.640 --> 00:39:05.439
+Umesh Vaidya: and then you can solve for royal robot.
+
+397
+00:39:11.250 --> 00:39:15.739
+Umesh Vaidya: convex in row and robot. but infinite dimension.
+
+398
+00:39:19.120 --> 00:39:21.119
+Umesh Vaidya: You understand what I mean? I mean
+
+399
+00:39:25.530 --> 00:39:36.400
+Umesh Vaidya: infinite damage. You you you understand what I say when I say infant double here, right? Because you see, what is this? Is? This is infinite, because we are doing this, each of these are actually function of X,
+
+400
+00:39:40.870 --> 00:39:43.930
+Umesh Vaidya: right? So you said, fix the x, then it just
+
+401
+00:39:44.510 --> 00:39:52.400
+Umesh Vaidya: final damage. But now X is your take all the x's right. So that's and now there are all these points which are basically in find out
+
+402
+00:39:52.690 --> 00:40:00.359
+Umesh Vaidya: right? And that's where the infant dimension legend comes in. But say, infinite dimensional convex, in fact, is linear in 5 dimensional linear inequalities.
+
+403
+00:40:00.490 --> 00:40:09.489
+Umesh Vaidya: Okay? So the way you do that is actually convert to final dimension like, do some approximation. You parameterize this convert to final dimension, and then you check this.
+
+404
+00:40:09.670 --> 00:40:12.209
+Umesh Vaidya: So convert this to find a dimensional convex problem.
+
+405
+00:40:13.340 --> 00:40:15.449
+Umesh Vaidya: Once you solve for row and robot.
+
+406
+00:40:20.220 --> 00:40:22.660
+Umesh Vaidya: then what is your K of X
+
+407
+00:40:29.080 --> 00:40:34.739
+Umesh Vaidya: row, bar of X, divided by row of X. So when you're solving this, you have to make sure the row is always positive.
+
+408
+00:40:36.690 --> 00:40:41.900
+Umesh Vaidya: and this is exactly what you did in the linear system. If you recall, you get the K as
+
+409
+00:40:42.130 --> 00:40:47.650
+Umesh Vaidya: K bar, Q. Inverse good luck. So that's the inverse.
+
+410
+00:40:47.710 --> 00:40:51.570
+Umesh Vaidya: Grow. So in that sense is sort of very much replicate
+
+411
+00:40:52.020 --> 00:40:55.810
+Umesh Vaidya: what you do in linear system. It's just that. Now, you're doing infant, actually.
+
+412
+00:40:56.870 --> 00:40:57.570
+okay.
+
+413
+00:40:58.130 --> 00:40:59.690
+Umesh Vaidya: So that's the beauty of this.
+
+414
+00:41:08.270 --> 00:41:12.460
+Umesh Vaidya: So it's linear. What linear in row and robot.
+
+415
+00:41:13.240 --> 00:41:21.359
+Umesh Vaidya: And because this so convex may not be linear
+
+416
+00:41:22.070 --> 00:41:25.969
+Umesh Vaidya: convex could be nonlinear, like X squared is convex. It's not in here.
+
+417
+00:41:26.290 --> 00:41:36.330
+Umesh Vaidya: right? But convexity is a good property. If it's really, it's even better. Because now lp, is is like.
+
+418
+00:41:36.660 --> 00:41:40.129
+Umesh Vaidya: is a technology like you have chips which can actually do linear
+
+419
+00:41:40.610 --> 00:41:45.339
+Umesh Vaidya: convex. You still have to sort of write the algorithms and so on.
+
+420
+00:41:45.860 --> 00:41:52.020
+Umesh Vaidya: But linear programming is like, you have, you get a specialized chips to. Actually. So it's it's it's even better, right?
+
+421
+00:41:52.270 --> 00:41:57.130
+Umesh Vaidya: So linearity has more structure which you can exploit.
+
+422
+00:41:57.160 --> 00:42:00.289
+Umesh Vaidya: So so yeah, so that's something. It's even better than convex.
+
+423
+00:42:09.730 --> 00:42:18.459
+Umesh Vaidya: So I have a code which can actually do this computation control design and stuff. I mean, I have developed this A lot of this theory is actually have developed this.
+
+424
+00:42:18.840 --> 00:42:21.470
+Umesh Vaidya: For doing
+
+425
+00:42:21.520 --> 00:42:23.650
+Umesh Vaidya: control design convexly.
+
+426
+00:42:23.980 --> 00:42:27.369
+Umesh Vaidya: this is the first time. Actually, we, we have done this. I mean this, this is
+
+427
+00:42:27.750 --> 00:42:33.309
+Umesh Vaidya: many of this thing is actually our invention. So I have codes for this, if you want to actually use them.
+
+428
+00:42:33.490 --> 00:42:38.360
+Umesh Vaidya: How to do this. Now, you can do this purely using data. You don't even need system model.
+
+429
+00:42:38.730 --> 00:42:49.729
+Umesh Vaidya: And you can then design this K from this data. So I have a paper which actually talks about this and and have a code which lets you do this so I could. I could share that with you. It's already published.
+
+430
+00:42:49.940 --> 00:42:57.679
+Umesh Vaidya: I already have the codes, and then you could pay and and use it. There is a small catch here. You can actually
+
+431
+00:42:57.880 --> 00:43:08.799
+Umesh Vaidya:  I mean, at least, the scalability is the issue here, so we can, we cannot scale it. But I have some ideas which are more research oriented, which I think
+
+432
+00:43:09.140 --> 00:43:13.919
+Umesh Vaidya: one could use. This. You want to scale it up a little bit. But
+
+433
+00:43:13.930 --> 00:43:19.149
+Umesh Vaidya: that's aside. The point is that I could give you some codes which you can use and play.
+
+434
+00:43:19.580 --> 00:43:22.070
+Umesh Vaidya:  yeah.
+
+435
+00:43:23.980 --> 00:43:26.080
+Umesh Vaidya: Florida, Florida project, for example.
+
+436
+00:43:26.860 --> 00:43:37.150
+Umesh Vaidya: and that's something that it will be difficult for me to do in the class like, explain all the, all the code. So if you want to do it for project. Maybe I can actually spend some time outside the class. And then
+
+437
+00:43:37.340 --> 00:43:39.249
+Umesh Vaidya: we can look at it. More detail.
+
+438
+00:43:40.610 --> 00:43:42.020
+Umesh Vaidya: Yeah. So
+
+439
+00:43:43.220 --> 00:43:45.809
+Umesh Vaidya: going back would be at a row
+
+440
+00:43:46.000 --> 00:43:52.189
+Umesh Vaidya: like if we're not. if we're not trying to force it to be linear with that term actually be complex.
+
+441
+00:43:52.350 --> 00:43:53.100
+Audrey.
+
+442
+00:43:54.740 --> 00:44:03.900
+Umesh Vaidya: No, no, it's not because it's by, it's it's it's not. The KK and row are 2 different variables. So it's X times Y is not convex.
+
+443
+00:44:03.930 --> 00:44:06.140
+Umesh Vaidya: Right x squared is convex.
+
+444
+00:44:07.180 --> 00:44:13.669
+Umesh Vaidya: Now there are 2 variables at x and y, so think of k as x rho, as y.
+
+445
+00:44:14.080 --> 00:44:14.750
+yeah.
+
+446
+00:44:15.870 --> 00:44:18.409
+Umesh Vaidya: it's it's it's sometimes called bilinear.
+
+447
+00:44:18.710 --> 00:44:25.629
+Umesh Vaidya: But those are tough. It's like my linear fix. K is linear in row. If you fix row, it's linear in K,
+
+448
+00:44:26.630 --> 00:44:29.840
+Umesh Vaidya: and but that's not useful. That's not convex.
+
+449
+00:44:36.670 --> 00:44:41.610
+Umesh Vaidya: Okay? So that's basically tells you something about
+
+450
+00:44:41.890 --> 00:45:35.389
+Umesh Vaidya: this. 2 different notions of stability aids.  So let me just give you one more definition.
+
+451
+00:45:35.990 --> 00:45:42.590
+Umesh Vaidya:  of of stability. But it has to do with system and inputs and outputs. Okay.
+
+452
+00:45:43.780 --> 00:45:47.409
+Umesh Vaidya: so what is the input output definition of civility looks like.
+
+453
+00:45:47.730 --> 00:45:53.770
+Umesh Vaidya: Of course, the important definition of stability actually builds on the or rather
+
+454
+00:45:53.930 --> 00:46:03.680
+Umesh Vaidya: definitely not definition. But I think the way you verify improper definition for output. Definition of stability actually builds on the Liab definition, Liapa function. Again.
+
+455
+00:46:04.510 --> 00:46:19.850
+Umesh Vaidya:  just like in linear system. There is a connection between the the internal stability and the improper port stability system is is, if it is internal and stable, then it is improper, stable, but not the other way around.
+
+456
+00:46:19.910 --> 00:46:27.950
+Umesh Vaidya: Similarly, and the the way you verify in productivity is using the polls of the transfer function.
+
+457
+00:46:28.000 --> 00:46:32.449
+Umesh Vaidya: But the way you verify the interversibility using the eigenvalues of the a matrix right?
+
+458
+00:46:32.830 --> 00:46:41.200
+Umesh Vaidya:  and not all the Poles are the Eigenvalues. But all the Eigenvalues are the Poles. Right?
+
+459
+00:46:41.550 --> 00:46:48.400
+Umesh Vaidya: So so what I'm trying to say is that there's a connection between the improper stability and the internal stability.
+
+460
+00:46:48.760 --> 00:46:52.060
+Umesh Vaidya: With this, through this poll, then. and eigenvalues.
+
+461
+00:46:52.170 --> 00:46:58.350
+Umesh Vaidya: Similarly, there's a connection between the input output stability. I mean, even for non-linear system, the input output stability
+
+462
+00:46:58.490 --> 00:47:03.779
+Umesh Vaidya: and the the internal stability. So internal stability for nonlinear system is truly up function.
+
+463
+00:47:04.190 --> 00:47:07.700
+Umesh Vaidya: and improvisability is
+
+464
+00:47:08.100 --> 00:47:20.260
+Umesh Vaidya: has to do with in person outputs, just like in linear system. The improper stability was basically saying that bond input boundary output stability saying that if you have inputs which are bounded, the output will stay bounded right?
+
+465
+00:47:20.480 --> 00:47:31.270
+Umesh Vaidya: Similarly, if you're non-linear system. you can. Actually you, you can have the same definition. but a little more sophisticated definition of a nonlinear system.
+
+466
+00:47:31.360 --> 00:47:36.379
+Umesh Vaidya:  because of the
+
+467
+00:47:36.500 --> 00:47:44.829
+Umesh Vaidya:  I mean, we could also do the same for the new system. We you guys haven't done that.
+
+468
+00:47:44.860 --> 00:47:46.660
+Umesh Vaidya: I.
+
+469
+00:47:46.990 --> 00:47:51.010
+Umesh Vaidya: But in the nonlinear system you could do that because
+
+470
+00:47:58.220 --> 00:48:02.619
+Umesh Vaidya: so for linear system, when I say, it's a boundary input boundary or probability.
+
+471
+00:48:04.080 --> 00:48:07.989
+Umesh Vaidya: Basically, what you're saying is that input is bounded. The output will stay bounded. Right?
+
+472
+00:48:08.290 --> 00:48:17.490
+Umesh Vaidya:  I I'm trying just trying to recall. How do you actually define? For linear systems? You say that?
+
+473
+00:48:18.710 --> 00:48:31.259
+Umesh Vaidya: Yeah, I mean, at least the way I teach it. I don't know how you is saying that. Oh, if U of t, if U of t is input U of t is less than something, then y of t is less than something for all. T, right? So it's bonded input bonded output.
+
+474
+00:48:31.560 --> 00:48:34.580
+Umesh Vaidya: But the right way to do this is actually to
+
+475
+00:48:34.650 --> 00:48:55.699
+Umesh Vaidya:  yeah, yeah, to to actually, quantify. What do you mean by small. So basically saying that small change in the input leads to a small change in output. Now, how do you actually quantify the small change? So the way you quantify the small change is by introducing norms on the input and output signals.
+
+476
+00:48:55.810 --> 00:49:06.779
+Umesh Vaidya: Okay, so you know how to define norms on the vectors. Right? So if I give a vector you know how to yeah, how to computer. Now, right?
+
+477
+00:49:07.210 --> 00:49:10.750
+Umesh Vaidya: Because norms are basically what they are associating up
+
+478
+00:49:10.850 --> 00:49:24.870
+Umesh Vaidya: number to a vector right positive number to a vector right? Basically, has a notion of distance. Also, right. So similarly. Now, when you want to actually extend that idea to a in-productive system.
+
+479
+00:49:25.370 --> 00:49:32.620
+Umesh Vaidya:  improper stability.
+
+480
+00:49:35.880 --> 00:49:37.589
+Umesh Vaidya: So let's see, you have a system
+
+481
+00:49:39.390 --> 00:49:42.130
+Umesh Vaidya: you have x of t or u of t.
+
+482
+00:49:42.490 --> 00:49:47.360
+Umesh Vaidya: and then you have y of t right. So what is u of TU of t is some signal.
+
+483
+00:49:50.060 --> 00:49:51.949
+Umesh Vaidya: and then y of t is some signal
+
+484
+00:49:54.700 --> 00:49:56.480
+Umesh Vaidya: right now.
+
+485
+00:49:56.680 --> 00:50:07.560
+Umesh Vaidya: And let's say this system is given the mapping edge. So what does h does h take the input U of T, and use your right. That's what the system mapping does. Right
+
+486
+00:50:11.380 --> 00:50:18.259
+Umesh Vaidya: is the mapping from the input space to the output space. So it takes some input signal and gives you some output signal, so as far as definition is concerned.
+
+487
+00:50:18.520 --> 00:50:22.089
+Umesh Vaidya: So the way you actually define this is by
+
+488
+00:50:22.760 --> 00:50:35.070
+Umesh Vaidya:  interesting norms on the U, and why? Because I want to quantify that. Oh, when I make small change in the U, the output also changes by small amount. Okay, so when I what do you mean by small?
+
+489
+00:50:35.350 --> 00:50:36.140
+Umesh Vaidya: So
+
+490
+00:50:37.230 --> 00:50:42.870
+Umesh Vaidya: so to quantify what is small, I need to put a norm right. So you know how to put a norm on the vectors.
+
+491
+00:50:43.480 --> 00:50:51.100
+Umesh Vaidya: The vectors are actually finite dimension. But now U of T is not a final doubt U of T is a infinite, because there are time.
+
+492
+00:50:51.300 --> 00:50:52.870
+Umesh Vaidya: Right? It's a signal.
+
+493
+00:50:53.020 --> 00:50:55.680
+Umesh Vaidya: So now you introduce the norms on this
+
+494
+00:50:55.720 --> 00:50:58.339
+Umesh Vaidya: so-called infinite dimension spaces.
+
+495
+00:50:58.750 --> 00:51:06.079
+Umesh Vaidya: These are called as the the pnorm, the Lpn. Okay, so, and you are familiar with this. It's just that now, it's kind of
+
+496
+00:51:06.490 --> 00:51:12.619
+Umesh Vaidya: putting little more mathematical jargon behind it. So let's say, if this call something called lp spaces.
+
+497
+00:51:13.320 --> 00:51:14.929
+Umesh Vaidya: space of all.
+
+498
+00:51:15.210 --> 00:51:26.380
+Umesh Vaidya:  granting this function.
+
+499
+00:51:27.570 --> 00:51:36.120
+Umesh Vaidya: you from 0 infinity to rm, so M. Here is a dimension. And what is the P. Here. P. I'll tell you. What is it? P.
+
+500
+00:51:37.600 --> 00:51:38.740
+Umesh Vaidya: Such that
+
+501
+00:51:52.770 --> 00:51:55.430
+Umesh Vaidya: one over P existing?
+
+502
+00:51:58.850 --> 00:52:00.400
+Umesh Vaidya: So this is
+
+503
+00:52:00.460 --> 00:52:07.589
+Umesh Vaidya: this is basically called a lp, space. Is this? One of the student was asking last time, right? This Hilbert Space Banach spaces.
+
+504
+00:52:07.690 --> 00:52:16.370
+Umesh Vaidya: So these are like in 5 dimensions space. These are the space of all functions. So what is lp, space? So lp, space is space of all continuous functions
+
+505
+00:52:16.730 --> 00:52:18.420
+Umesh Vaidya: where this quantity is funded.
+
+506
+00:52:20.350 --> 00:52:28.780
+Umesh Vaidya: and then you denote that norm as the Lp. Norm and the big L is for continuous time. Little L also is used for discrete time.
+
+507
+00:52:29.900 --> 00:52:33.879
+Umesh Vaidya: So many of this country is less than infinity. Then you say that you belong to the Lp space.
+
+508
+00:52:35.070 --> 00:52:39.499
+Umesh Vaidya: For example, if P. Equal to 2, what what does it be able to do? Looks like.
+
+509
+00:52:46.750 --> 00:52:49.310
+Umesh Vaidya: what is the physical? What is the physical meaning of P equal to?
+
+510
+00:52:51.190 --> 00:52:53.329
+Umesh Vaidya: What does P equal? 2 looks like
+
+511
+00:52:59.960 --> 00:53:03.600
+Umesh Vaidya: this will basically use square. Let's just take a scalar.
+
+512
+00:53:06.020 --> 00:53:07.440
+Umesh Vaidya: What is this quantity is
+
+513
+00:53:11.820 --> 00:53:12.980
+Olamide Akinyele: autonom?
+
+514
+00:53:13.360 --> 00:53:16.779
+Umesh Vaidya: Yeah, I'll do. Norm, what what is this physical meaning of this norm is.
+
+515
+00:53:17.400 --> 00:53:20.070
+Olamide Akinyele: guys put it on distance right?
+
+516
+00:53:20.410 --> 00:53:23.379
+Umesh Vaidya: Just the energy. Is this energy?
+
+517
+00:53:24.720 --> 00:53:25.410
+Umesh Vaidya: Okay?
+
+518
+00:53:27.730 --> 00:53:29.669
+Umesh Vaidya: But you could use other norms, too.
+
+519
+00:53:29.930 --> 00:53:35.269
+Umesh Vaidya: like P, equal to 1, 2, 3, 4, all integers. Okay, except P. Equal to infinity.
+
+520
+00:53:35.370 --> 00:53:37.109
+Umesh Vaidya: it could go all the way.
+
+521
+00:53:38.290 --> 00:53:39.030
+Umesh Vaidya: Okay.
+
+522
+00:53:40.330 --> 00:53:48.900
+Umesh Vaidya: so note that this this quantity here is basically U of BP is
+
+523
+00:53:49.790 --> 00:53:55.950
+Umesh Vaidya: U, one of the absolute value. P, plus u, 2 of the absolute value. P,
+
+524
+00:53:56.050 --> 00:53:57.010
+let's
+
+525
+00:53:57.830 --> 00:54:03.289
+Umesh Vaidya: you, M of the okay, that's for the PIN on it.
+
+526
+00:54:04.020 --> 00:54:05.280
+That's what this means.
+
+527
+00:54:10.540 --> 00:54:13.390
+Umesh Vaidya: U is a vector, has m components
+
+528
+00:54:13.610 --> 00:54:16.429
+Umesh Vaidya: and use a, vector, because that's where this m comes from.
+
+529
+00:54:18.410 --> 00:54:20.889
+Umesh Vaidya: It is mapping from 0 infinity to rm.
+
+530
+00:54:27.990 --> 00:54:29.439
+Umesh Vaidya: so if you say that
+
+531
+00:54:30.330 --> 00:54:34.199
+Umesh Vaidya: a signal belongs to L, 2. Space and L 2 is the most.
+
+532
+00:54:34.720 --> 00:54:38.290
+Umesh Vaidya: a most used space. Okay.
+
+533
+00:54:38.610 --> 00:54:41.010
+Umesh Vaidya: it is the most used space. And it's actually.
+
+534
+00:54:41.230 --> 00:54:55.470
+Umesh Vaidya: it's a nice space. It's we. You don't need to know much about this, but it's so called Hilbert Space. Okay, while others are not. So, Hilbert. Space has some nice properties, and so on. But so if you have a eleventh which belongs to L, 2 space, that means have finite energy.
+
+535
+00:54:57.500 --> 00:54:58.160
+Umesh Vaidya: Okay.
+
+536
+00:54:59.860 --> 00:55:01.260
+Umesh Vaidya: it's a finite energy signal.
+
+537
+00:55:02.550 --> 00:55:06.539
+Umesh Vaidya: And for P could infinite. It's a special case. So these are. These are all P.
+
+538
+00:55:07.500 --> 00:55:09.980
+Umesh Vaidya: P. Which belongs to one
+
+539
+00:55:10.090 --> 00:55:11.110
+Umesh Vaidya: open Internet.
+
+540
+00:55:12.710 --> 00:55:14.469
+Umesh Vaidya: P. Here is any integer.
+
+541
+00:55:15.380 --> 00:55:19.400
+Umesh Vaidya: one to open infinity, no infinity. All integers. Okay.
+
+542
+00:55:20.950 --> 00:55:24.310
+Umesh Vaidya: What we would include is, is a special. So case
+
+543
+00:55:24.620 --> 00:55:33.320
+Umesh Vaidya: it's called Ellen infinity space. Now, what are they looking for? You know, elementary norm is basically is the
+
+544
+00:55:34.210 --> 00:55:37.509
+Umesh Vaidya: sup patted equal 0 U of D,
+
+545
+00:55:42.470 --> 00:55:45.250
+Umesh Vaidya: you look at a supremum value of U. Of T.
+
+546
+00:55:46.710 --> 00:55:49.450
+Umesh Vaidya: And that sort of and in front of the office.
+
+547
+00:56:04.690 --> 00:56:08.590
+Olamide Akinyele: professor. Those super mum means
+
+548
+00:56:09.590 --> 00:56:11.949
+Olamide Akinyele: greatest lower bound. No greatest upper bound.
+
+549
+00:56:12.820 --> 00:56:18.139
+Umesh Vaidya: It's it's it's supremum. So it's at least upper bound. Right?
+
+550
+00:56:18.440 --> 00:56:19.470
+Olamide Akinyele: So
+
+551
+00:56:19.540 --> 00:56:27.710
+Umesh Vaidya: it is. It is done as supremum, not as a maximum, because the supremum will always exist. The maximum may not exist. But
+
+552
+00:56:28.310 --> 00:56:31.120
+Umesh Vaidya: I do know what's the difference between supremum and maximum is
+
+553
+00:56:32.120 --> 00:56:34.590
+little bit. And then I've heard the distinction.
+
+554
+00:56:35.020 --> 00:56:39.619
+Umesh Vaidya: Okay, the supremum is will always exist. Maximum may or may not exist.
+
+555
+00:56:40.080 --> 00:56:43.730
+Umesh Vaidya: Okay? So whenever you have a
+
+556
+00:56:45.500 --> 00:56:47.420
+Umesh Vaidya: so like the point was
+
+557
+00:56:47.480 --> 00:56:57.109
+Umesh Vaidya: open. Yeah, yeah, yeah. So you can still bound it by then line the set. Okay, that's why it's a supremum.
+
+558
+00:56:57.220 --> 00:56:59.820
+Umesh Vaidya: If it is, lies on the site, then it's a maximum.
+
+559
+00:57:00.870 --> 00:57:02.020
+Umesh Vaidya: So
+
+560
+00:57:02.110 --> 00:57:07.120
+Umesh Vaidya: I mean, I'm not. I don't want to go in much detail there, because I think it just scares you.
+
+561
+00:57:07.700 --> 00:57:13.960
+Umesh Vaidya: So. And it's not really super super important. right?
+
+562
+00:57:18.780 --> 00:57:28.509
+Umesh Vaidya: So soup and in for always exist mean. And Max never, I mean, may or may not exist. If the Sis, the if the set is closed, then soup and Max is Max and minimal exist.
+
+563
+00:57:29.120 --> 00:57:37.350
+Umesh Vaidya: but if not, then they will not right, because here the the time T belongs to 0. Infinity. Right? So you're
+
+564
+00:57:37.390 --> 00:57:43.550
+Umesh Vaidya: T equal to 0 to open infinity. So the set is not closed. It's open sets. That's why we're doing the soup.
+
+565
+00:57:43.600 --> 00:57:45.610
+Umesh Vaidya: It's not. It's not a Max.
+
+566
+00:57:45.830 --> 00:57:47.450
+Umesh Vaidya: But if you take a finite time
+
+567
+00:57:47.570 --> 00:57:50.999
+Umesh Vaidya: interval, close interval, then you could do the the Max.
+
+568
+00:58:00.900 --> 00:58:09.690
+Umesh Vaidya: Okay? So so these are basically like my quick introduction to what a Lp spaces are. Okay, these are actually in 5 dimensional spaces,
+
+569
+00:58:09.950 --> 00:58:28.210
+Umesh Vaidya: and and and whenever you're dealing with signals which has time. The signals now are in fine dimension signal, and that's why you have to introduce this this spaces to talk about the to quantify how large or how small this the signals are. Right
+
+570
+00:58:28.570 --> 00:58:31.440
+Umesh Vaidya: now, when you're dealing with systems
+
+571
+00:58:32.130 --> 00:58:48.809
+Umesh Vaidya: you may be dealing with unstable systems as well. Right? Because if you have system, it could be unstable. Right? You don't know a priority. So let's say, if you're unstable system, you give you, which is finite, which has the finite energy. Let's say I'll do space. Okay, you belongs to a 2 space. So you give me a finite energy signal. What do you expect y. To be?
+
+572
+00:58:49.420 --> 00:58:52.450
+Umesh Vaidya: If it unstable will? Why belong to L. 2
+
+573
+00:58:53.910 --> 00:59:13.890
+Umesh Vaidya: may not right? Because it's it's this signal energy is just growing up right? Because on signal is unbounded. Right? So then, how do you actually be use this basis now to talk about unstable systems. Because I want to use this definition. I want to define stability of system which it includes, which allows for the possibility of unstable system as well. Right
+
+574
+00:59:13.910 --> 00:59:19.650
+Umesh Vaidya: so to address those things. What these guys have done is actually, they have modified this spaces little bit.
+
+575
+00:59:20.000 --> 00:59:22.689
+Umesh Vaidya: Now that you know what lp spaces are.
+
+576
+00:59:22.760 --> 00:59:23.930
+Umesh Vaidya: these are all so
+
+577
+00:59:24.120 --> 00:59:30.730
+Umesh Vaidya: spaces of all signals which are the fired pnorm right where the pnorm is defined like this.
+
+578
+00:59:31.020 --> 00:59:33.290
+Umesh Vaidya: This is a penalty of a signal.
+
+579
+00:59:33.550 --> 00:59:42.539
+Umesh Vaidya: Now, how do you actually explain this definition or extend the definition of a spaces to allow for signals which does not have the finite
+
+580
+00:59:42.910 --> 00:59:43.790
+Umesh Vaidya: peanut?
+
+581
+00:59:44.920 --> 00:59:45.630
+Umesh Vaidya: Okay.
+
+582
+00:59:46.710 --> 00:59:54.819
+Umesh Vaidya: So those spaces are called an extended Lp spaces. and the way they are defined is is the following
+
+583
+00:59:57.330 --> 00:59:59.100
+Umesh Vaidya: extended Lp spaces.
+
+584
+01:00:03.610 --> 01:00:05.729
+Umesh Vaidya: so the way you define them is the following.
+
+585
+01:00:05.850 --> 01:00:19.670
+Umesh Vaidya: so the notation wise is LPEM. So M. Is the dimension. P is the norm ease, for extended is defined as set of all use. such that Utah belongs to Lpm.
+
+586
+01:00:20.180 --> 01:00:24.369
+Umesh Vaidya: For Alta belongs to 0 infinity, open infinity.
+
+587
+01:00:25.280 --> 01:00:26.810
+Umesh Vaidya: Now, what is this? Utah?
+
+588
+01:00:28.640 --> 01:00:31.489
+Umesh Vaidya: Utah is a truncation of you.
+
+589
+01:00:39.430 --> 01:00:45.829
+Umesh Vaidya: Utah of T is U of T for 0 less than t less than equal to Tau.
+
+590
+01:00:46.030 --> 01:00:49.740
+Umesh Vaidya: and it's 0 for rt greater than equal to
+
+591
+01:00:50.240 --> 01:00:51.260
+Umesh Vaidya: bigger than doll.
+
+592
+01:00:58.480 --> 01:00:59.320
+Umesh Vaidya: Okay.
+
+593
+01:00:59.520 --> 01:01:06.710
+Umesh Vaidya: so what is the external space? External space are the space where you truncate the signal? The truncated signal will belong to Lp space
+
+594
+01:01:08.560 --> 01:01:11.999
+Umesh Vaidya: for all talk with 0 and open inflate
+
+595
+01:01:13.080 --> 01:01:18.130
+Umesh Vaidya: the signal may itself may not belong to the Lp. Space, but when you truncate it, it belongs to Lp. Space.
+
+596
+01:01:21.120 --> 01:01:23.639
+Umesh Vaidya: I mean, and truncate a signal. It'll belong to entry space.
+
+597
+01:01:23.670 --> 01:01:26.819
+Umesh Vaidya: So over finite time, you'll have a finite energy.
+
+598
+01:01:27.260 --> 01:01:30.670
+Umesh Vaidya: For example, when P. Equal to 2. Okay.
+
+599
+01:01:36.270 --> 01:01:38.200
+Umesh Vaidya: okay. yeah.
+
+600
+01:01:38.730 --> 01:01:44.010
+Umesh Vaidya: not like, if I'm doing any signal at some point, maybe
+
+601
+01:01:45.140 --> 01:01:46.210
+Umesh Vaidya: you get
+
+602
+01:01:46.310 --> 01:01:50.019
+Umesh Vaidya:  but you can find signals which.
+
+603
+01:01:50.490 --> 01:01:57.449
+Umesh Vaidya: yeah, you can construct some weird signals which may not belong to external
+
+604
+01:01:58.430 --> 01:02:07.229
+Umesh Vaidya:  not always infinity.
+
+605
+01:02:07.900 --> 01:02:16.560
+Umesh Vaidya: So what I'm saying is that if the signal is in lp, so lp, external space is bigger space.
+
+606
+01:02:17.470 --> 01:02:22.730
+Umesh Vaidya: Because any signal which belongs to Lp will belong to the L extended.
+
+607
+01:02:23.200 --> 01:02:32.469
+Umesh Vaidya: but not the other way around. It doesn't mean that. Lp, I mean, it's includes all the entire
+
+608
+01:02:32.670 --> 01:02:37.430
+Umesh Vaidya: function spaces. So there may be something we should not even write in Lpm.
+
+609
+01:02:39.320 --> 01:02:44.439
+Umesh Vaidya: There could be a signal which may not line. And because you're doing this for all talk, you see.
+
+610
+01:02:44.950 --> 01:02:45.620
+that's
+
+611
+01:02:46.200 --> 01:02:49.320
+Umesh Vaidya: right. So, for example, let's say I give a signal which is
+
+612
+01:02:49.330 --> 01:02:56.169
+Umesh Vaidya: 0, which is one from 0 to 10. After 10. It's just goes to just
+
+613
+01:02:56.590 --> 01:03:04.199
+Umesh Vaidya: goes to infinity or becomes very large. Then if I use a truncation of 11. I'm in trouble that may not belong to lp.
+
+614
+01:03:04.450 --> 01:03:08.010
+Umesh Vaidya: like I was thinking in terms of if there existed any.
+
+615
+01:03:08.540 --> 01:03:11.659
+Umesh Vaidya: you know, if not the regular asset for all talk.
+
+616
+01:03:11.940 --> 01:03:12.610
+Okay.
+
+617
+01:03:19.820 --> 01:03:24.680
+Umesh Vaidya: okay, so with this definition, we can actually, I'll give you improper definition, and that will be the end of it.
+
+618
+01:03:25.020 --> 01:03:35.769
+Umesh Vaidya: Or we already end of it. So let me, just because I need to spend some time explaining this. So I've given you the definition of the spaces. We'll now use this to define what you mean by input output statement.
+
+619
+01:03:36.160 --> 01:03:49.499
+Umesh Vaidya: Okay, with this definition, we are in the position to give a definition of a input output stability of a non-human system. Okay? So I will not give it here, because I think it's a long definition. And I'll need some time to explain that.
+
+620
+01:03:49.510 --> 01:03:50.760
+Umesh Vaidya: Okay, we'll stop here.
+
